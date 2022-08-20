@@ -5,7 +5,7 @@
 
 ### Hola, este es mi TFG, en el he realizado un análisis estadístico de una base de datos proporcionada por el Centro de Recuperación de Fauna Silvestre, la Tahonilla.
 
-Mi intención con este directorio es compartir tanto los resultados obtenidos en este trabajo, como los scripts que he programado para ello. Los datos obviamente, al no ser míos, y en principio no son públicos, sino de la Tahonilla, he subido una Demo para que tengan una idea. Si quieren los datos para replicar el experimento, pueden contactar con la Tahonilla.
+Mi intención con este directorio es compartir tanto los resultados obtenidos en este trabajo, como los scripts que he programado para ello. Los datos obviamente, como no son míos, sino de la Tahonilla (y en principio no son públicos), he subido una Demo para que tengan una idea general. Si quieren los datos para replicar el experimento, pueden contactar con la Tahonilla.
 
 Los resultados y el Abstract los subiré en otro Markdown en inglés, pero aquí explicaré las principales variables a estudiar, y los scripts utilizados.
 
