@@ -17,19 +17,26 @@ Los resultados y el Abstract los subiré en otro Markdown en inglés, pero aquí
 Script: 2Tor_de_data.R
 
 * Variables tiempo: año, mes, estación / Time variables: year, month and season (***"anio"***, ***"mes"***, ***"estacion"***).
+
 Script: / This were studied in the script: tor_ani_est.R
+
 Además se realizó un modelo de Series Temporales, un SARIMA en concreto para realizar un pronóstico de las tortugas que llegarían en 2022. Pero este estudio debido a diversas razones se realizó en el script 3Tor_de_data.R
 
 * Municipio y lugares donde las tortugas son rescatadas / Muniicipality and places where the turtles are rescue. (***"muni"***, ***"lugar"***)
+
 Script: 4municipios.R
 
 * Causas del recate. tortugas que llegan vivas o muertas, y las que pueden ser rehabilitadas o no / Rescue causes. Turtles that arrive alive or dead, as well as the ones that can be or not rehabilitate. (***causa/causa_orig***, ***muerte***)
+
 Script: 5causas2.R
 
 * Las observaviones de los trabajadores a las tortugas cundo llegan al centro/ The observation that the workers of the center do to the turtles on the arrival (***"observa"***)
+
 script: 6obs2.R
 
 * Biometrías de las tortugas rescatadas: longitud recta del caparazón (***"LRC"***), Longitud Curva del Caparazón (***"LCC"***), anchura recta del caparazón (***"ARC"***), anchura curva del caparazón (***"ACC"***) y peso (***"Peso"***) / Biometry of the turtles straight carapace length (***"SRC"***), curved carapace length (***"CCL"***), straight carapace width (***"SCW"***), curved caparace width (***"CCW"***) and weight (***"Weigth"***)
+
+Script: 7biometria.R
 
 
 
