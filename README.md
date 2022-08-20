@@ -21,7 +21,7 @@ Script: 2Tor_de_data.R
 
 Script: / This were studied in the script: tor_ani_est.R
 
-Además se realizó un modelo de Series Temporales, un SARIMA en concreto para realizar un pronóstico de las tortugas que llegarían en 2022. Pero este estudio debido a diversas razones se realizó en el script: / In addition, a Time Series model was made, a specific SARIMA to make a forecast of the turtles that would arrive in 2022. But this study, due to various reasons, was carried out in the script: 3Tor_de_data.R
+Además se realizó un modelo de Series Temporales, un SARIMA, en concreto para realizar un pronóstico de las tortugas que llegarían en 2022. Pero este estudio debido a diversas razones se realizó en el script: / In addition, a Time Series model was made, in specific a SARIMA model, to make a forecast of the turtles that would arrive in 2022. But this study, due to various reasons, was carried out in the script: 3Tor_de_data.R
 
 * Municipio y lugares donde las tortugas son rescatadas / Muniicipality and places where the turtles are rescue. (***"muni"***, ***"lugar"***)
 
