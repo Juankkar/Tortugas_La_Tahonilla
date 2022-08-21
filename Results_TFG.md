@@ -24,7 +24,7 @@ What we saw was that, approximatly 90% of the loggerhead turtles were juviniles 
 The results of the loggerehead has sense because Canary Islands is a place for de juveniles to feed (*cite et al., 20..*), and after they migrate... ***leer mas para saber que poner***.
 
 ---
-![Link image](https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/temporal1.png)
+![Link image](https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/biometria1.png)
 
 ***Figrue 3.*** *Estimation of the living cile using the CCL for the loggerhead and green turtle*.
 
@@ -43,7 +43,7 @@ This could mean that the PC1 would explained the ones that are growing in size o
 The other component, could probably mean that when they growth in caparace size, they would be found in the top fringe of the graph, on the other hand, the ones that are in the negative site, are growing in weight. Over were the Juveniles, unther, the hatchlings, subadults, adults
 
 ---
-![Link image](https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/Graphs/Rplot.png)
+![Link image](https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/PCA.png)
 
 ***Figure 4.*** *PCA of the biometric variables (loggerhead turtle). Differents groups of the linving cicle ar formed*
 
@@ -54,7 +54,7 @@ The other component, could probably mean that when they growth in caparace size,
 The results showed tha there wasn't a clear pattern in terms of the year of arrival. That wasn't the case for the season. In this case, the majority of the turtles come in summer, it woudl seems that in the spring and fall season, come equally, and in winter it would be when less of them arrive.
 
 ---
-![](temporal1.png)
+![Link image](https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/temporal1.png)
 
 ***Figure 5.*** *Temporal evolution of the turtles arrivals*
 
