@@ -83,13 +83,15 @@ We did a time series analysis. We got a SARIMA model and the components, of the 
  In order to guarantee that the model was optimal. We first made sure that the data was stational by the Dickey-Fuller test (*p* < 0.05), we also did a Ljung-Box test, to corroborate the existence of white noise (*p* > 0.05). And finally before the forcast for 2022, we did atraining model one for 2021, to make sure that it didn't fail on the reality, and had good results.
 
  ---
+ <p align="justify">
 ![link imgage](https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/modeloentrenamiento.png)
-
+</p>
 ***Figure 8.*** **(I couldn't translete the plot text, but is basically the training model)** *Training Model to see how it adjust to the data in 2021 in red, in blue other whise, is the forcast for this year.*
-
+<p align="justify">
 ![Link imgae](https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/Rplot.png)
-
+<p/>
 ***Figura 9.*** *Forcast for the year 2022.* 
+ 
  ---
 
 </p>
