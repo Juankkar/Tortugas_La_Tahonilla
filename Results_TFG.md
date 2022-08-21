@@ -24,7 +24,7 @@ What we saw was that, approximatly 90% of the loggerhead turtles were juviniles 
 The results of the loggerehead has sense because Canary Islands is a place for de juveniles to feed (*cite et al., 20..*), and after they migrate... ***leer mas para saber que poner***.
 
 ---
-![](biometria1.png)
+![Link image](https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/temporal1.png)
 
 ***Figrue 3.*** *Estimation of the living cile using the CCL for the loggerhead and green turtle*.
 
