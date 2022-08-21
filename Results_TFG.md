@@ -154,7 +154,7 @@ The years from 2001 to 2012 (2000 was excluded becouse more than 80% of the caus
 
 But, for the years 2013 to 2021, the causes were *p* > 0.05 for all the groups. 
 
-Then, because this results we did a table (that is not showed in this highlights), where showed that this could be explained by the decrease the antropogeneic causes of fishing gear (the princple causes of stranding)
+Then, because of this results, we did a table (that hasn't been added to this highlights), where showed that this could be explained by the decrease the antropogeneic causes of fishing gear (the princple causes of stranding). Also, the unclassified causes have been increasing, specially this last years, wich could be affecting this study. 
 
 ---
 
@@ -185,6 +185,26 @@ Then, because this results we did a table (that is not showed in this highlights
 
 ---
 
+## 6) Turtles that arrive alive, dead and can be rehabilitated or not.
+
+In this terms, our results mostrated that the majority of the turtles arrive alive to La Tahonilla. Also, their pronostic ir really favorable, being most of them rehabilitated.
+
+We tested this differences using Wilocxon, seeing that between the first comparison *p* < 0.05. On the other hand, in case of the rehabilitated, the differences were *p* < 0.05 as well.
+
+---
+
+<p align="center">
+ 
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/muerte.png" />
+
+</p>
+
+***Figure 15.*** ***A, C*** *Distribution of the data and **B, D** boxplot for comparing the groups*
+
+---
+
+***Figure 13.*** ***A*** *Distribution of the data and **B** boxplot for comparing the causes for the years 2001-12*
+
 </p>
 
 ## **Bibliography** (exclusively, the one needed for this highlights)
@@ -196,7 +216,4 @@ Then, because this results we did a table (that is not showed in this highlights
 [3] Mansfield. K.L. & Putman, N. (2013). “Oceanic habits and habitats Caretta Caretta.” En The Biology of Sea Turtles, Volume III, edited by Jeanette Wyneken Kenneth J. Lohmann John A Musick, 189–211. CRC Marine Science
 
 ### My TFG: García-Estupiñán, J.C. (2022). Análisis estadístico de Tortugas marinas varadas en Tenerife, Islas Canarias. University if La Laguna.
-
-
-
 
