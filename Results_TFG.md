@@ -67,7 +67,12 @@ So, to see if this diferences were significants, we did a test of Kruskal-Wallis
 * Winter was *p* > 0.05 with the rest.
 
 ---
-![Link image](https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/Rplot01.png)
+
+<p align="center">
+ 
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/Rplot01.png" />
+
+</p>
 
 ***Figure 6.*** ***A** Histograms that shows the data distribution, **B** Boxplot for comparing the seasons*
 
@@ -86,7 +91,8 @@ We did a time series analysis. We got a SARIMA model and the components, of the 
  ---
  <p align="justify">
   
-![link imgage](https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/modeloentrenamiento.png)
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/modeloentrenamiento.png"
+
 </p>
  
 ***Figure 8.*** **(I couldn't translete the plot text, but is basically the training model)** *Training Model to see how it adjust to the data in 2021 in red, in blue other whise, is the forcast for this year.*
