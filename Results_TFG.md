@@ -15,7 +15,7 @@ The chelonian order is formed by two families and seven species of sea turtles, 
 
 <p align="justify">
  
-### In terms of numbers, *Caretta caretta* was the most common out of all of the turtles, representating 96.92% of the individuals. In total, there was five species, and over all, 1913 turtles identified.
+### In terms of numbers, *Caretta caretta* was the most common out of all of the turtles, representing 96.92% of the individuals. In total, there was five species, and over all, 1913 turtles identified.
 
 * *Caretta caretta* (loggerhead turtle): 1854
 * *Chelonya mydas* (green turtle) : 51
@@ -23,11 +23,11 @@ The chelonian order is formed by two families and seven species of sea turtles, 
 * *Eretmochelys imbricata* (hawksbill turtle): 1
 * *Lepidochelys olivacea* (Olive ridley turtle): 1
 
-Then what we did was a biometric study of the turtles with this type of data taken. We used the caparace curved length (what is known by "CCL"). Some autors (*cite et al., 2018*) have used this parameter to determined the age state of their linving cicle (more likely for the loggerheads and green turtles). 
+Then what we did was a biometric study of the turtles with this type of data taken. We used the carapace curved length (what is known by "CCL"). Some authors (*cite et al., 2018*) have used this parameter to determined the age state of their linving cicle (more likely for the loggerheads and green turtles). 
 
-What we saw was that, approximatly 90% of the loggerhead turtles were juviniles (more were small size than big). I case of the green turtle, the sample was so small, that there was nothing solid that we could extract from the results.
+What we saw was that, approximatly 90% of the loggerhead turtles were juviniles (more were small size than big). I case of the green turtle; the sample was so small, that there was nothing solid that we could extract from the results.
 
-The results of the loggerehead has sense because Canary Islands is a place for the juveniles to feed (Investigadores de la ULL colaboran con pescadores y cofradías para proteger a las tortugas boba y verde, 2022; Liria-Lozoa *et al.*, 2021; Mansfield & Putman, 2013), before they continue with migration patterns to reproduction rutes (as Cabo Verde for example).
+The results of the loggerhead has sense because Canary Islands is a place for the juveniles to feed (Investigadores de la ULL colaboran con pescadores y cofradías para proteger a las tortugas boba y verde, 2022; Liria-Lozoa *et al.*, 2021; Mansfield & Putman, 2013), before they continue with migration patterns to reproduction routes (as Cabo Verde for example).
 
  </p>
 ---
@@ -38,21 +38,21 @@ The results of the loggerehead has sense because Canary Islands is a place for t
 
 </p>
 
-***Figrue 3.*** *Estimation of the living cile using the CCL for the loggerhead and green turtle*.
+***Figure 3.*** *Estimation of the living cile using the CCL for the loggerhead and green turtle*.
 
 ---
 
-After that, we did a Principal Componen Analisis (PCA), to compare all the biometric variables. We choosed the first 2 components because they explained ~98% of the variance, where the PC1 explained ~94% and the PC2 ~4%.
+After that, we did a Principal Component Analisis (PCA), to compare all the biometric variables. We chose the first 2 components because they explained ~98% of the variance, where the PC1 explained ~94% and the PC2 ~4%.
 
-We used the Pearson Correlation Test, to compare the PC, with the biometrics variables. All of them  were hightly correlated and negatively with the first component. Meanwhile, in the second component, the only variable with a respectable (but not hight at all)level of correlation and negative, was the weight. The size caparace for the second on the other hand were poorly correlated.
+We used the Pearson Correlation Test, to compare the PC, with the biometrics variables. All of them  were highly correlated and negatively with the first component. Meanwhile, in the second component, the only variable with a respectable (but not high at all)level of correlation and negative, was the weight. The size carapace for the second on the other hand were poorly correlated.
 
-This could mean that the PC1 would explained the ones that are growing in size of the caparace and weight, are in the left of the graph of the **Figure 4**. In that case when we put the results of the linving cicle, it formed groups that were in orther of size: 
-1. hatchlings 
+This could mean that the PC1 would explained the ones that are growing in size of the carapace and weight, are in the left of the graph of the **Figure 4**. In that case when we put the results of the linving cicle, it formed groups that were in orther of size: 
+1. Hatchlings 
 2. Juveniles (small and bigs) 
 3. Subadults and 
 4. Adults. 
 
-The other component, could probably mean that when they growth in caparace size, they would be found in the top fringe of the graph, on the other hand, the ones that are in the negative site, are growing in weight. Over were the Juveniles, unther, the hatchlings, subadults, adults
+The other component could probably mean that, when they grow in carapace size, they would be found in the top fringe of the graph, on the other hand, the ones that are in the negative site, are growing in weight. Over were the Juveniles, under, the hatchlings, subadults, adults
 
 ---
 
@@ -62,7 +62,7 @@ The other component, could probably mean that when they growth in caparace size,
 
 </p>
 
-***Figure 4.*** *PCA of the biometric variables (loggerhead turtle). Differents groups of the linving cicle ar formed*
+***Figure 4.*** *PCA of the biometric variables (loggerhead turtle). Differents groups of the living cycle ar formed*
 
 ---
 
