@@ -1,5 +1,7 @@
 # Results of "Statistical analysisis of sea turtles strandings in Tenerife, Canary Islands". (Hightlights)
 
+### Note: maybe it is not finished by now, do not judge me harshly please!!! 
+
 ## Abstract:
 <p align="justify">
 The chelonian order is formed by two families and seven species of sea turtles, all of which are on the IUCN Red List and Appendix I of CITES. Because of that, it is important to study their strandings in the Canary Islands. The most representative was *Caretta caretta*, arriving mainly juveniles, especially in summer, followed by fall and spring equally and winter where less. When a forecast was made for 2022, it was seen that this pattern could occur in a similar way. Adeje was the municipality with the highest number of turtles arriving, mostly from Puerto Colòn, a tourist area. In fact, the most common causes were of anthropogenic origin, especially those related to fishing gear, but have been decreasing until now, with a slight increase of the natural ones and a large one of the undetermined causes. Most of the turtles are alive when they have been rescued, being rehabilitated most of them, where the lesions in the fins are the main affection, suffering necrosis and amputations.
@@ -203,7 +205,47 @@ We tested this differences using Wilocxon, seeing that between the first compari
 
 ---
 
-***Figure 13.*** ***A*** *Distribution of the data and **B** boxplot for comparing the causes for the years 2001-12*
+## 7) Observation that the La Tahonilla workers made to the turtles when they arrive to la tahonilla.
+
+Finally what we will talk about is the things that the workers anotated whe the turtles arrive to the center. To that we used a algorithm to extract the information in the datasets.
+
+```
+
+selec <-function(ord,lista_tokens,var) {
+  paste(lista_tokens[-ord],collapse="|")
+  if(!is.na(ord)) return(grepl(lista_tokens[ord],tolower(var)) & !grepl(paste(lista_tokens[-ord],collapse="|"),tolower(var)))
+  else return(grepl(paste(lista_tokens,collapse="|"),tolower(var)))
+}
+
+```
+
+Using this code we filtered the values of interest, being able to classifide some of the turles for three sepcific variables (even though, a lot of them weren't able to clasiffy with this method):
+
+* Injuries.
+* Affections.
+* Parts of the body affected.
+
+The most common value of all, including all three variables, were the fings. Also we create heatmaps to compare the variables. What we saw was that there was a **triple coincidence**: The fings were correlated with the affection of necrosis, as well with the injury of amputations (logically). But also, what was really intersting, it was that the necrosis were also correlated with the amputations.
+
+---
+
+<p align="center">
+ 
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/obs1.png" />
+
+</p>
+
+***Figure 16.*** *List of the values of "Observations": **A** parts of the body, **B** the state pf the turtles, **C** injuries.*
+
+<p align="center">
+ 
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/obs2.png" />
+
+</p>
+
+***Figure 17.*** *Heatmaps: **A** relation between the state and the part of the body affected, **B** between the injuries and the part of the body, **C** the injuries and the state.*
+
+---
 
 </p>
 
