@@ -2,8 +2,7 @@
 
 ## Abstract:
 <p align="justify">
-
-//The chelonian order is formed by two families and seven species of sea turtles, all of which are on the IUCN Red List and Appendix I of CITES. Because of that, it is important to study their strandings in the Canary Islands. The most representative was *Caretta caretta*, arriving mainly juveniles, especially in summer, followed by fall and spring equally and winter where less. When a forecast was made for 2022, it was seen that this pattern could occur in a similar way. Adeje was the municipality with the highest number of turtles arriving, mostly from Puerto Colòn, a tourist area. In fact, the most common causes were of anthropogenic origin, especially those related to fishing gear, but have been decreasing until now, with a slight increase of the natural ones and a large one of the undetermined causes. Most of the turtles are alive when they have been rescued, being rehabilitated most of them, where the lesions in the fins are the main affection, suffering necrosis and amputations.
+The chelonian order is formed by two families and seven species of sea turtles, all of which are on the IUCN Red List and Appendix I of CITES. Because of that, it is important to study their strandings in the Canary Islands. The most representative was *Caretta caretta*, arriving mainly juveniles, especially in summer, followed by fall and spring equally and winter where less. When a forecast was made for 2022, it was seen that this pattern could occur in a similar way. Adeje was the municipality with the highest number of turtles arriving, mostly from Puerto Colòn, a tourist area. In fact, the most common causes were of anthropogenic origin, especially those related to fishing gear, but have been decreasing until now, with a slight increase of the natural ones and a large one of the undetermined causes. Most of the turtles are alive when they have been rescued, being rehabilitated most of them, where the lesions in the fins are the main affection, suffering necrosis and amputations.
 
 **Keywords**: loggerhead, *Caretta caretta*, Canary Islands, strandings, sea turtles.
 </p>
@@ -44,7 +43,7 @@ This could mean that the PC1 would explained the ones that are growing in size o
 The other component, could probably mean that when they growth in caparace size, they would be found in the top fringe of the graph, on the other hand, the ones that are in the negative site, are growing in weight. Over were the Juveniles, unther, the hatchlings, subadults, adults
 
 ---
-![](PCA.png)
+![Link image](https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/Graphs/Rplot.png)
 
 ***Figure 4.*** *PCA of the biometric variables (loggerhead turtle). Differents groups of the linving cicle ar formed*
 
