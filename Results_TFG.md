@@ -6,9 +6,8 @@ The chelonian order is formed by two families and seven species of sea turtles, 
 
 **Keywords**: loggerhead, *Caretta caretta*, Canary Islands, strandings, sea turtles.
 
-</p>
  
-## 1) Species and biometric study of the turtles.
+## **1) Species and biometric study of the turtles.**
 
 ### In terms of numbers, *Caretta caretta* was the most common out of all of the turtles, representating 96.92% of the individuals. In total, there was five species, and over all, 1913 turtles identified.
 
@@ -22,7 +21,7 @@ Then what we did was a biometric study of the turtles with this type of data tak
 
 What we saw was that, approximatly 90% of the loggerhead turtles were juviniles (more were small size than big). I case of the green turtle, the sample was so small, that there was nothing solid that we could extract from the results.
 
-The results of the loggerehead has sense because Canary Islands is a place for de juveniles to feed (*cite et al., 20..*), and after they migrate... ***leer mas para saber que poner***.
+The results of the loggerehead has sense because Canary Islands is a place for the juveniles to feed (Investigadores de la ULL colaboran con pescadores y cofradías para proteger a las tortugas boba y verde, 2022; Liria-Lozoa *et al.*, 2021; Mansfield & Putman, 2013), before they continue with migration patterns to reproduction rutes (as Cabo Verde for example).
 
 ---
 
@@ -60,7 +59,7 @@ The other component, could probably mean that when they growth in caparace size,
 
 ---
 
-## 2) Temporal Study and forcast for 2022.
+## **2) Temporal Study and forcast for 2022.**
 
 The results showed tha there wasn't a clear pattern in terms of the year of arrival. That wasn't the case for the season. In this case, the majority of the turtles come in summer, it woudl seems that in the spring and fall season, come equally, and in winter it would be when less of them arrive.
 
@@ -103,6 +102,8 @@ We did a time series analysis. We got a SARIMA model and the components, of the 
  
  In order to guarantee that the model was optimal. We first made sure that the data was stational by the Dickey-Fuller test (*p* < 0.05), we also did a Ljung-Box test, to corroborate the existence of white noise (*p* > 0.05). And finally before the forcast for 2022, we did atraining model one for 2021, to make sure that it didn't fail on the reality, and had good results.
 
+ In the end, it would appear that for the 2022 year the pattern would seem similar to the annual pattern. There is going to be a increase number of turtles since begginig of the year, until a possible peak in Summer. After that there is going to be a negative tendency since fall start to the last month of the study (December).
+
  ---
  
  <p align="center">
@@ -122,4 +123,31 @@ We did a time series analysis. We got a SARIMA model and the components, of the 
 ***Figura 9.*** *Forcast for the year 2022.* 
  
  ---
+
+ ## **3) Municipality and places of rescue.**
+
+The municipality where a significant percentage of turtles arrive is Adeje, and the place in specific inside here is Puerto Colòn, a place with marina and recreational sea attractions as aquatic bikes.
+
+Even though, a study of the actual causes, showed that the boat strikes or strikes in general where scarce. The fishing gear causes were the main one. It is true, that in some of the years (specially in the last ones), there are a lot of non unclassified, wich could be masking the real results.
+
+---
+
+<p align="center">
+ 
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/muni.png" />
+
+</p>
+
+---
+
+</p>
+
+## **Bibliography** (exclusively, the one needed for this highlights)
+
+[1] Investigadores de la ULL colaboran con pescadores y cofradías para proteger a las tortugas boba y verde. (16 de febrero 2022). ULL Noticias. https://www.ull.es/portal/noticias/2022/investigadores-de-la-ull-ensenana-pescadores-y-cofradias-como-proteger-a-las-tortugas-boba-y-verde/
+
+[2] Liria-Loza A., Fariñas-Bermejo A., Ostiategui-Francia P., Usategui-Martín A. (2021). Protocolo de actuación frente a varamientos de tortugas marinas en Canarias. Gobierno de Canarias (Fondos FEDER. ISBN: 978-84-09-32808-6).
+
+[3] Mansfield. K.L. & Putman, N. (2013). “Oceanic habits and habitats Caretta Caretta.” En The Biology of Sea Turtles, Volume III, edited by Jeanette Wyneken Kenneth J. Lohmann John A Musick, 189–211. CRC Marine Science
+
 
