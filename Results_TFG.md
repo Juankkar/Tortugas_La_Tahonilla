@@ -25,7 +25,12 @@ What we saw was that, approximatly 90% of the loggerhead turtles were juviniles 
 The results of the loggerehead has sense because Canary Islands is a place for de juveniles to feed (*cite et al., 20..*), and after they migrate... ***leer mas para saber que poner***.
 
 ---
-![Link image](https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/biometria1.png)
+
+<p align="center">
+ 
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/biometria1.png" />
+
+</p>
 
 ***Figrue 3.*** *Estimation of the living cile using the CCL for the loggerhead and green turtle*.
 
@@ -44,7 +49,12 @@ This could mean that the PC1 would explained the ones that are growing in size o
 The other component, could probably mean that when they growth in caparace size, they would be found in the top fringe of the graph, on the other hand, the ones that are in the negative site, are growing in weight. Over were the Juveniles, unther, the hatchlings, subadults, adults
 
 ---
-![Link image](https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/PCA.png)
+
+<p align="center">
+ 
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/biometria2.png" />
+
+</p>
 
 ***Figure 4.*** *PCA of the biometric variables (loggerhead turtle). Differents groups of the linving cicle ar formed*
 
