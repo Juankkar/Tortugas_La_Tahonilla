@@ -10,9 +10,9 @@ The chelonian order is formed by two families and seven species of sea turtles, 
 
 </p>
 
-<p align="justify">
+ 
 ## **1) Species and biometric study of the turtles.**
-
+<p align="justify">
 ### In terms of numbers, *Caretta caretta* was the most common out of all of the turtles, representating 96.92% of the individuals. In total, there was five species, and over all, 1913 turtles identified.
 
 * *Caretta caretta* (loggerhead turtle): 1854
