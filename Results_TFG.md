@@ -96,6 +96,10 @@ We did a time series analysis. We got a SARIMA model and the components, of the 
 ![Link imgae](https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/Rplot.png)
  
 <p/>
+
+<p align="center">
+  <img src="http://some_place.com/image.png](https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/Rplot.png" />
+</p>
  
 ***Figura 9.*** *Forcast for the year 2022.* 
  
