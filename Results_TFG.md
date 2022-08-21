@@ -46,7 +46,8 @@ After that, we did a Principal Component Analisis (PCA), to compare all the biom
 
 We used the Pearson Correlation Test, to compare the PC, with the biometrics variables. All of them  were highly correlated and negatively with the first component. Meanwhile, in the second component, the only variable with a respectable (but not high at all)level of correlation and negative, was the weight. The size carapace for the second on the other hand were poorly correlated.
 
-This could mean that the PC1 would explained the ones that are growing in size of the carapace and weight, are in the left of the graph of the **Figure 4**. In that case when we put the results of the linving cicle, it formed groups that were in orther of size: 
+This could mean that the PC1 would explain the ones that are growing in size of the carapace and weight are in the left of the graph of the **Figure 4**. In that case when we put the results of the linving cicle, it formed groups that were in orther of size: 
+
 1. Hatchlings 
 2. Juveniles (small and bigs) 
 3. Subadults and 
@@ -66,7 +67,7 @@ The other component could probably mean that, when they grow in carapace size, t
 
 ---
 
-## **2) Temporal Study and forcast for 2022.**
+## **2) Temporal Study and forecast for 2022.**
 
 The results showed tha there wasn't a clear pattern in terms of the year of arrival. That wasn't the case for the season. In this case, the majority of the turtles come in summer, it woudl seems that in the spring and fall season, come equally, and in winter it would be when less of them arrive.
 
@@ -82,7 +83,8 @@ The results showed tha there wasn't a clear pattern in terms of the year of arri
 
 ---
 
-So, to see if this diferences were significants, we did a test of Kruskal-Wallis (the data distribution wasn't normal, as with the rest of the studies), and because *p* < 0.05, we did the Dunnet Test as a Post-Hoc (with the Bonferroni correction). 
+So, to see if this differences were significants, we did a test of Kruskal-Wallis, the data distribution wasn't normal, as with the rest of the studies. and because *p* < 0.05, we did the Dunnet Test as a Post-Hoc (with the Bonferroni correction). 
+
 * The summer season was *p* < 0.05 with the rest.
 * In case of Spring and fall *p* > 0.05. 
 * Winter was *p* > 0.05 with the rest.
@@ -103,13 +105,13 @@ We did a time series analysis. We got a SARIMA model and the components, of the 
 
 ( p, d, q ) x ( P, D, Q )<sub>S</sub>
 
-* No seasonal componentes: (p = 2, d = 0, q = 3 )
+* No seasonal components: (p = 2, d = 0, q = 3 )
 * Seasonal components: ( P = 1, D = 0, Q = 1 )
 * seasonal period: S = 12
  
- In order to guarantee that the model was optimal. We first made sure that the data was stational by the Dickey-Fuller test (*p* < 0.05), we also did a Ljung-Box test, to corroborate the existence of white noise (*p* > 0.05). And finally before the forcast for 2022, we did atraining model one for 2021, to make sure that it didn't fail on the reality, and had good results.
+ In order to guarantee that the model was optimal. We first made sure that the data was stational by the Dickey-Fuller test (*p* < 0.05), we also did a Ljung-Box test, to corroborate the existence of white noise (*p* > 0.05). And finally before the forecast for 2022, we did a training model one for 2021, to make sure that it didn't fail on the reality and had good results.
 
- In the end, it would appear that for the 2022 year the pattern would seem similar to the annual pattern. There is going to be a increase number of turtles since begginig of the year, until a possible peak in Summer. After that there is going to be a negative tendency since fall start to the last month of the study (December).
+ In the end, it would appear that for the 2022 year the pattern would seem similar to the annual pattern. There is going to be a increase number of turtles since beginning of the year, until a possible peak in Summer. After that there is going to be a negative tendency since fall start to the last month of the study (December).
 
  ---
  
@@ -119,7 +121,7 @@ We did a time series analysis. We got a SARIMA model and the components, of the 
 
 </p>
  
-***Figure 8.*** **(I couldn't translete the plot text, but is basically the training model)** *Training Model to see how it adjust to the data in 2021 in red, in blue other whise, is the forcast for this year.*
+***Figure 8.*** **(I couldn't translete the plot text, but is basically the training model)** *Training Model to see how it adjusted to the data in 2021 in red, in blue other whise, is the forecast for this year.*
  
 <p align="center">
  
@@ -127,13 +129,13 @@ We did a time series analysis. We got a SARIMA model and the components, of the 
 
 </p>
  
-***Figura 9.*** *Forcast for the year 2022.* 
+***Figura 9.*** *Forecast for the year 2022.* 
  
  ---
 
  ## **3) Municipality and places of rescue.**
 
-The municipality where a significant percentage of turtles arrive is Adeje, and the place in specific inside here is Puerto Colòn, a place with marina and recreational sea attractions as aquatic bikes.
+The municipality where a significant percentage of turtles arrive is Adeje, and the place in specific inside here is Puerto Colòn, a place with port and recreational sea attractions as aquatic bikes.
 
 Even though, a study of the actual causes, showed that the boat strikes or strikes in general where scarce. The fishing gear causes were the main one. It is true, that in some of the years (specially in the last ones), there are a lot of non unclassified, wich could be masking the real results.
 
@@ -153,15 +155,15 @@ Even though, a study of the actual causes, showed that the boat strikes or strik
 
 We divided the causes in three groups:
 
-* Antropogenic causes.
+* Anthropogenic causes.
 * Natural causes.
 * Unclassified.
 
-The years from 2001 to 2012 (2000 was excluded becouse more than 80% of the causes were unclassified), the causes were significant with each other *p* < 0.05, being the significance between the causes made by humanes and the other two (between the naturals and unclassified, *p* > 0.05). 
+The years from 2001 to 2012 (2000 was excluded because more than 80% of the causes were unclassified), the causes were significant with each other *p* < 0.05, being the significance between the causes made by humans and the other two (between the naturals and unclassified, *p* > 0.05). 
 
 But, for the years 2013 to 2021, the causes were *p* > 0.05 for all the groups. 
 
-Then, because of this results, we did a table (that hasn't been added to this highlights), where showed that this could be explained by the decrease the antropogeneic causes of fishing gear (the princple causes of stranding). Also, the unclassified causes have been increasing, specially this last years, wich could be affecting this study. 
+Then, because of these results, we did a table (that hasn't been added to this highlight), where showed that this could be explained by the decrease the anthropogeneic causes of fishing gear (the principle causes of stranding). Also, the unclassified causes have been increasing, specially this last years, wich could be affecting this study. 
 
 ---
 
@@ -194,9 +196,9 @@ Then, because of this results, we did a table (that hasn't been added to this hi
 
 ## 6) Turtles that arrive alive, dead and can be rehabilitated or not.
 
-In this terms, our results mostrated that the majority of the turtles arrive alive to La Tahonilla. Also, their pronostic ir really favorable, being most of them rehabilitated.
+In these terms, our results showed that the majority of the turtles arrive alive to La Tahonilla. Also, their prognostic is really favorable, being most of them rehabilitated.
 
-We tested this differences using Wilocxon, seeing that between the first comparison *p* < 0.05. On the other hand, in case of the rehabilitated, the differences were *p* < 0.05 as well.
+We tested these differences using Wilocxon, seeing that between the first comparison *p* < 0.05. On the other hand, in case of the rehabilitated, the differences were *p* < 0.05 as well.
 
 ---
 
@@ -212,7 +214,7 @@ We tested this differences using Wilocxon, seeing that between the first compari
 
 ## 7) Observation that the La Tahonilla workers made to the turtles when they arrive to la tahonilla.
 
-Finally what we will talk about is the things that the workers anotated whe the turtles arrive to the center. To that we used a algorithm to extract the information in the datasets.
+Finally, what we will talk about is the things that the workers annotated when the turtles arrive to the center. To that we used a algorithm to extract the information in the datasets.
 
 ```
 
@@ -224,13 +226,13 @@ selec <-function(ord,lista_tokens,var) {
 
 ```
 
-Using this code we filtered the values of interest, being able to classifide some of the turles for three sepcific variables (even though, a lot of them weren't able to clasiffy with this method):
+Using this code we filtered the values of interest, being able to classified some of the turles for three sepcific variables (even though, a lot of them weren't able to clasiffy with this method):
 
 * Injuries.
 * Affections.
 * Parts of the body affected.
 
-The most common value of all, including all three variables, were the fings. Also we create heatmaps to compare the variables. What we saw was that there was a **triple coincidence**: The fings were correlated with the affection of necrosis, as well with the injury of amputations (logically). But also, what was really intersting, it was that the necrosis were also correlated with the amputations.
+The most common value of all, including all three variables, were the fins. Also, we create heatmaps to compare the variables. What we saw was that there was a **triple coincidence**: The fins were correlated with the affection of necrosis, as well with the injury of amputations (logically). But also, what was really interesting, it was that the necrosis were also correlated with the amputations.
 
 ---
 
@@ -240,7 +242,7 @@ The most common value of all, including all three variables, were the fings. Als
 
 </p>
 
-***Figure 16.*** *List of the values of "Observations": **A** parts of the body, **B** the state pf the turtles, **C** injuries.*
+***Figure 16.*** *List of the values of "Observations": **A** part of the body, **B** the state pf the turtles, **C** injuries.*
 
 <p align="center">
  
