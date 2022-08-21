@@ -93,7 +93,7 @@ We did a time series analysis. We got a SARIMA model and the components, of the 
  
 <p align="justify">
  
-<![Link imgae](https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/Rplot.png)>
+![Link imgae](https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/Rplot.png)
  
 <p/>
  
@@ -101,4 +101,3 @@ We did a time series analysis. We got a SARIMA model and the components, of the 
  
  ---
 
-</p>
