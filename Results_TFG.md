@@ -93,7 +93,7 @@ We did a time series analysis. We got a SARIMA model and the components, of the 
  
 <p align="center">
  
-  <img src="http://some_place.com/image.png](https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/Rplot.png" />
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/Rplot.png" />
 
 </p>
  
