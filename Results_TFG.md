@@ -95,7 +95,7 @@ We did a time series analysis. We got a SARIMA model and the components, of the 
 
  ---
  
- <p align="justify">
+ <p align="center">
   
   <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/modeloentrenamiento.png"
 
