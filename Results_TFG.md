@@ -84,12 +84,17 @@ We did a time series analysis. We got a SARIMA model and the components, of the 
 
  ---
  <p align="justify">
+  
 ![link imgage](https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/modeloentrenamiento.png)
 </p>
+ 
 ***Figure 8.*** **(I couldn't translete the plot text, but is basically the training model)** *Training Model to see how it adjust to the data in 2021 in red, in blue other whise, is the forcast for this year.*
+ 
 <p align="justify">
 ![Link imgae](https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/Rplot.png)
+ 
 <p/>
+ 
 ***Figura 9.*** *Forcast for the year 2022.* 
  
  ---
