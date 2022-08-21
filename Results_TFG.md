@@ -55,7 +55,12 @@ The other component, could probably mean that when they growth in caparace size,
 The results showed tha there wasn't a clear pattern in terms of the year of arrival. That wasn't the case for the season. In this case, the majority of the turtles come in summer, it woudl seems that in the spring and fall season, come equally, and in winter it would be when less of them arrive.
 
 ---
-![Link image](https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/temporal1.png)
+
+<p align="center">
+ 
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/temporal1.png" />
+
+</p>
 
 ***Figure 5.*** *Temporal evolution of the turtles arrivals*
 
