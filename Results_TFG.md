@@ -75,7 +75,7 @@ The results showed tha there wasn't a clear pattern in terms of the year of arri
 
 ---
 
-So, to see if this diferences were significants, we did a test of Kruskal-Wallis (the data distribution wasn't normal), and because *p* < 0.05, we did the Dunnet Test as a Post-Hoc (with the Bonferroni correction). 
+So, to see if this diferences were significants, we did a test of Kruskal-Wallis (the data distribution wasn't normal, as with the rest of the studies), and because *p* < 0.05, we did the Dunnet Test as a Post-Hoc (with the Bonferroni correction). 
 * The summer season was *p* < 0.05 with the rest.
 * In case of Spring and fall *p* > 0.05. 
 * Winter was *p* > 0.05 with the rest.
@@ -138,6 +138,51 @@ Even though, a study of the actual causes, showed that the boat strikes or strik
 
 </p>
 
+***Figure 10 and 11*** *A Municipalities percentages of sea turtles stranding B Places of the strandings inside Puerto Colòn, the municipality with the greatest numbers. C Bar char of the recent causes in this place.* 
+
+---
+
+## 5) General causes of the strandings
+
+We divided the causes in three groups:
+
+* Antropogenic causes.
+* Natural causes.
+* Unclassified.
+
+The years from 2001 to 2012 (2000 was excluded becouse more than 80% of the causes were unclassified), the causes were significant with each other *p* < 0.05, being the significance between the causes made by humanes and the other two (between the naturals and unclassified, *p* > 0.05). 
+
+But, for the years 2013 to 2021, the causes were *p* > 0.05 for all the groups. 
+
+Then, because this results we did a table (that is not showed in this highlights), where showed that this could be explained by the decrease the antropogeneic causes of fishing gear (the princple causes of stranding)
+
+---
+
+<p align="center">
+ 
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/causas1.png" />
+
+</p>
+
+***Figure 12.*** *Evolution of the causes 2001-2021*
+
+<p align="center">
+ 
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/causa4.png" />
+
+</p>
+
+***Figure 13.*** ***A*** *Distribution of the data and **B** boxplot for comparing the causes for the years 2001-12*
+
+
+<p align="center">
+ 
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/causa3.png" />
+
+</p>
+
+***Figure 14.*** ***A*** *Distribution of the data and **B** boxplot for comparing the causes for the years 2013-21*
+
 ---
 
 </p>
@@ -149,5 +194,9 @@ Even though, a study of the actual causes, showed that the boat strikes or strik
 [2] Liria-Loza A., Fariñas-Bermejo A., Ostiategui-Francia P., Usategui-Martín A. (2021). Protocolo de actuación frente a varamientos de tortugas marinas en Canarias. Gobierno de Canarias (Fondos FEDER. ISBN: 978-84-09-32808-6).
 
 [3] Mansfield. K.L. & Putman, N. (2013). “Oceanic habits and habitats Caretta Caretta.” En The Biology of Sea Turtles, Volume III, edited by Jeanette Wyneken Kenneth J. Lohmann John A Musick, 189–211. CRC Marine Science
+
+### My TFG: García-Estupiñán, J.C. (2022). Análisis estadístico de Tortugas marinas varadas en Tenerife, Islas Canarias. University if La Laguna.
+
+
 
 
