@@ -6,6 +6,7 @@ The chelonian order is formed by two families and seven species of sea turtles, 
 
 **Keywords**: loggerhead, *Caretta caretta*, Canary Islands, strandings, sea turtles.
 
+</p>
  
 ## 1) Species and biometric study of the turtles.
 
