@@ -31,7 +31,7 @@ library(readxl)
 #                                           Data de todas las tortugas                                         #
 #--------------------------------------------------------------------------------------------------------------#
 
-df_tortugas2 <-  read_excel("C:/Users/jcge9/Downloads/data_tortugas.xlsx", 
+df_tortugas2 <-  read_excel("C:/Users/jcge9/Desktop/TFG/TFG_R/data_tortugas.xlsx", 
                                             col_types = c("numeric", "text", "text", 
                                                           "text", "date", "date", "text", "text", 
                                                           "text", "text", "text", "text", 
@@ -63,7 +63,7 @@ df_tortugas2 <-  read_excel("C:/Users/jcge9/Downloads/data_tortugas.xlsx",
 #                                           Data de las tortugas marinas                                       #
 #--------------------------------------------------------------------------------------------------------------#
 
-df_tm <- df_tortugas2 %>% 
+df_tortugas_marinas <- df_tortugas2 %>% 
   filter(especie %in% c("Caretta caretta","Chelonia mydas",
                         "Dermochelys coriacea","Eretmochelys imbricata",
                         "Lepidochelys olivacea")) %>% 
@@ -71,12 +71,12 @@ df_tm <- df_tortugas2 %>%
          estacion, muni,lugar, lugar_orig, causa,causa_orig, muerte,
          observa, lesion,cuerpo,estado)#;view(df_tortugas_marinas)
 
-df_tm_2021 <- tortugas_2021 <- read_excel("C:/Users/jcge9/Desktop/TFG/TFG_R/tortugas_2021.xlsx")
+# df_tm_2021 <- tortugas_2021 <- read_excel("C:/Users/jcge9/Desktop/TFG/TFG_R/tortugas_2021.xlsx")
 
 
-colnames(df_tm_2021)    == colnames(df_tm)
-
-df_tortugas_marinas <- rbind(df_tm, df_tm_2021)
+# colnames(df_tm_2021)    == colnames(df_tm)
+# 
+# df_tortugas_marinas <- rbind(df_tm, df_tm_2021)
 
  
 df_tortugas_marinas %>% nrow() # 1913 ejemplares
