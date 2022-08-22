@@ -1,6 +1,6 @@
 # Results of "Statistical analysis of sea turtles strandings in Tenerife, Canary Islands". (Hightlights)
 
-### Note: maybe it is not finished by now, do not judge me harshly please!!! 
+### Note: maybe it is not finished yet, do not judge me harshly please!!! 
 
 ## Abstract:
 <p align="justify">
