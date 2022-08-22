@@ -87,7 +87,7 @@ So, to see if this differences were significants, we did a test of Kruskal-Walli
 
 * The summer season was *p* < 0.05 with the rest.
 * In case of Spring and fall *p* > 0.05. 
-* Winter was *p* > 0.05 with the rest.
+* Winter was *p* < 0.05 with the rest.
 
 ---
 
