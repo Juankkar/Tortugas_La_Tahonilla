@@ -189,7 +189,7 @@ But, for the years 2013 to 2021, the causes were *p* > 0.05 for all the groups.
 
 ---
 
-Then, because of these results, we did a table, which showed that this could be explained by the decrease of the anthropogeneic causes, in specific, a reduction of fishing gear (the principle cause of stranding). Also, the unclassified causes have been increasing, specially this last years, which could be affecting this study. In other words, we probably are not able to see the reality of the situation because the numbre of this unclassified causes are so high.
+Then, because of these results, we did a table, which showed a possible explaination. It seems that is because the decrease of the anthropogeneic causes, in specific, a reduction of fishing gear (the principle cause of stranding). Also, the unclassified causes have been increasing, specially this last years, which could be affecting this study. In other words, we probably are not able to see the reality of the situation because the number of this last ones causes are so high.
 
 <p align="center">
  
