@@ -13,9 +13,8 @@ The Chelonian order is formed by two families and seven species of sea turtles, 
  
 ## **1) Species and biometric study of the turtles.**
 
-<p align="justify">
- 
-### In terms of numbers, *Caretta caretta* was the most common out of all of the turtles, representing 96.92% of the individuals. In total, there was five species, and over all, 1913 turtles identified.
+<p align="justify"> 
+### In terms of numbers, *Caretta caretta* was the most common out of all of the turtles, representing 96.92% of the individuals. In total, there was five species, and over all, 1913 turtles identified.</p>
 
 * *Caretta caretta* (loggerhead turtle): 1854
 * *Chelonya mydas* (green turtle) : 51
@@ -23,13 +22,14 @@ The Chelonian order is formed by two families and seven species of sea turtles, 
 * *Eretmochelys imbricata* (hawksbill turtle): 1
 * *Lepidochelys olivacea* (Olive ridley turtle): 1
 
-We did was a biometric study of the turtles. First, We used the carapace curved length (what is known by "CCL"). Some authors (*Liria-Lozoa et al., 2018*) have used this parameter to determined the age state of their lifecycle (more likely for the loggerheads and green turtles). 
+<p align="justify">
+We did was a biometric study of the turtles. First, We used the carapace curved length (what is known by "CCL"). Some authors (*Liria-Lozoa et al., 2018*) have used this parameter to determined the age state of their lifecycle (more likely for the loggerheads and green turtles).</p>
 
-What we saw was that, approximatly 90% of the loggerhead turtles were juviniles. In case of the green turtle; the sample was too small, in order to take some good conclusions.
+<p align="justify">
+What we saw was that, approximatly 90% of the loggerhead turtles were juviniles. In case of the green turtle; the sample was too small, in order to take some good conclusions.</p>
 
-The results of the loggerhead has sense because Canary Islands is a place for the juveniles to feed (Investigadores de la ULL colaboran con pescadores y cofradías para proteger a las tortugas boba y verde, 2022; Liria-Lozoa *et al.*, 2021; Mansfield & Putman, 2013), before they continue with migration patterns to reproduction routes (like Cabo Verde for example).
+The results of the loggerhead has sense because Canary Islands is a place for the juveniles to feed (Investigadores de la ULL colaboran con pescadores y cofradías para proteger a las tortugas boba y verde, 2022; Liria-Lozoa *et al.*, 2021; Mansfield & Putman, 2013), before they continue with migration patterns to reproduction routes (like Cabo Verde for example).</p>
 
- </p>
 ---
 
 <p align="center">
