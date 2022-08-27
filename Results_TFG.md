@@ -63,7 +63,7 @@ The second component could mean that the ones in the positive frame of the PC2 a
 
 </p>
 
-***Figure 4.*** *PCA of the biometric variables (loggerhead turtle). Differents groups of the living cycle ar formed*
+***Figure 4.*** *PCA of the biometric variables (loggerhead turtle). Different groups depending on the living cycle are formed*
 
 ---
 
