@@ -193,7 +193,7 @@ Then, because of these results, we did a table, which showed that this could be 
 
 <p align="center">
  
-  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/tabla%20causas.png" />
+  <img width="500" height="600" src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/tabla%20causas.png" />
 
 </p>
 
