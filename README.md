@@ -9,6 +9,10 @@ Mi intención con este directorio es compartir tanto los resultados obtenidos en
 
 Los resultados y el Abstract los subiré en otro Markdown en inglés, pero aquí explicaré las principales variables a estudiar, y los scripts utilizados.
 
+## Librerías y puesta a punto de la base de datos / Libraries and making the dataset ready to use
+
+* script: Lib_Dfs.R
+
 ## Variables Utilizadas para el análisis / Used Variables for the analysis.
 
 ### Variables generales / General variables:
