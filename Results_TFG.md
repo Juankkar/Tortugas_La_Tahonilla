@@ -46,14 +46,14 @@ After that, we did a Principal Component Analisis (PCA), to compare all the biom
 
 We used the Pearson Correlation Test, to compare the PC, with the biometrics variables. All of them  were highly correlated and negatively with the first component. Meanwhile, in the second component, the only variable with a respectable (but not high at all)level of correlation and negative, was the weight. The size carapace for the second on the other hand were poorly correlated.
 
-This could mean that the PC1 would explain the ones that are growing in size of the carapace and weight are in the left of the graph of the **Figure 4**. In that case when we put the results of the linving cicle, it formed groups that were in orther of size: 
+This could mean that the PC1 would explain the ones that are growing in size of the carapace and weight are in the left of the graph of the **Figure 4**. In this case when we put the results of the life cycle, groups were formed that were ordered coherently:: 
 
 1. Hatchlings 
 2. Juveniles (small and bigs) 
 3. Subadults and 
 4. Adults. 
 
-The other component could probably mean that, when they grow in carapace size, they would be found in the top fringe of the graph, on the other hand, the ones that are in the negative site, are growing in weight. Over were the Juveniles, under, the hatchlings, subadults, adults
+The second component could mean that the ones in the positive frame of the PC2 axis, the juveniles turtles (small and big sizes), are growing in terms of carapace size. On the other hand, the ones in the negative, the hatchlings, subadults and adults seems to being growing in weight in this state.
 
 ---
 
