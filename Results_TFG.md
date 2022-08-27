@@ -160,8 +160,6 @@ The years from 2001 to 2012 (2000 was excluded because more than 80% of the caus
 
 But, for the years 2013 to 2021, the causes were *p* > 0.05 for all the groups. 
 
-Then, because of these results, we did a table (that hasn't been added to this highlight), where showed that this could be explained by the decrease the anthropogeneic causes of fishing gear (the principle causes of stranding). Also, the unclassified causes have been increasing, specially this last years, wich could be affecting this study. 
-
 ---
 
 <p align="center">
@@ -190,6 +188,14 @@ Then, because of these results, we did a table (that hasn't been added to this h
 ***Figure 14.*** ***A*** *Distribution of the data and **B** boxplot for comparing the causes for the years 2013-21*
 
 ---
+
+Then, because of these results, we did a table, which showed that this could be explained by the decrease of the anthropogeneic causes, in specific, a reduction of fishing gear (the principle cause of stranding). Also, the unclassified causes have been increasing, specially this last years, which could be affecting this study. In other words, we probably are not able to see the reality of the situation because the numbre of this unclassified causes are so high.
+
+<p align="center">
+ 
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/tabla%20causas.png" />
+
+</p>
 
 ## 6) Turtles that arrive alive, dead and can be rehabilitated or not.
 
