@@ -98,7 +98,7 @@ So, to see if this differences were significants, we did a test of Kruskal-Walli
 
 ---
 
-We did a time series analysis. We got a SARIMA model and the components, of the model where:
+We did a time series analysis. We got a SARIMA model and the components of the model were:
 
 ( p, d, q ) x ( P, D, Q )<sub>S</sub>
 
