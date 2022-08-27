@@ -166,7 +166,7 @@ Then, because of these results, we did a table (that hasn't been added to this h
 
 <p align="center">
  
-  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/causas1.png" />
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/causas_evolucion.png" />
 
 </p>
 
@@ -174,7 +174,7 @@ Then, because of these results, we did a table (that hasn't been added to this h
 
 <p align="center">
  
-  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/causa4.png" />
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/causas2.png" />
 
 </p>
 
