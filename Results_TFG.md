@@ -42,7 +42,7 @@ The results of the loggerhead has sense because Canary Islands is a place for th
 
 ---
 
-After that, we did a Principal Component Analisis (PCA), to compare all the biometric variables. We chose the first 2 components because they explained ~98% of the variance, where the PC1 explained ~94% and the PC2 ~4%.
+After that, we did a Principal Component Analisis (PCA), in order to try to extract the maximun information of all the biometric variables. We chose the first 2 components because, together with each other, they explained ~98% of the variance, where the PC1 explained ~94% and the PC2 ~4%.
 
 We used the Pearson Correlation Test, to compare the PC, with the biometrics variables. All of them  were highly correlated and negatively with the first component. Meanwhile, in the second component, the only variable with a respectable (but not high at all)level of correlation and negative, was the weight. The size carapace for the second on the other hand were poorly correlated.
 
