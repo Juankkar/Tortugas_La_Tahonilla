@@ -214,7 +214,7 @@ We tested these differences using Wilocxon, seeing that between the first compar
 
 ---
 
-## 7) Observation that the La Tahonilla workers made to the turtles when they arrive to la Tahonilla.
+## 7) Observation that the La Tahonilla workers made to the turtles when they arrive to the center.
 
 Finally, what we will talk about is the things that the workers annotated when the turtles arrive to the center. To that we used a algorithm to extract the information in the datasets.
 
