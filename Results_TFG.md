@@ -117,7 +117,7 @@ We did a time series analysis. We got a SARIMA model and the components of the m
 
 </p>
  
-***Figure 8.*** **(I couldn't translete the plot text, but is basically the training model)** *Training Model to see how it adjusted to the data in 2021 in red, in blue other whise, is the forecast for this year.*
+***Figure 8.*** **(I couldn't translete the plot text, but is basically the training model)** *Training Model to see how it adjusted to the data in 2021 in red, in blue other whise, is the forecast for this year and the coluds are the confidence intervals of the model.*
  
 <p align="center">
  
