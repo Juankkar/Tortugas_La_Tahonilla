@@ -1,7 +1,7 @@
 # Análisis estadístico de tortugas marinas varadas en Tenerife, Islas Canarias.
 # Statistical analysis of sea turtles stranding in Tenerife, Canary Islands.
 
-## Trabajo de Fin de Grado de Juan Carlos García Estupiñán. Mis tutores fueron Carlos Pérez González y José Alberto Delgado Bello.
+## Trabajo de Fin de Grado de *Juan Carlos García Estupiñán*. Mis tutores fueron Carlos Pérez González y José Alberto Delgado Bello.
 
 ### Hola, este es mi TFG, en el he realizado un análisis estadístico de una base de datos proporcionada por el Centro de Recuperación de Fauna Silvestre, la Tahonilla.
 
