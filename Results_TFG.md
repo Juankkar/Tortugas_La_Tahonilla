@@ -265,5 +265,5 @@ The most common value of all, including all three variables, were the fins. Also
 
 [3] Mansfield. K.L. & Putman, N. (2013). “Oceanic habits and habitats Caretta Caretta.” En The Biology of Sea Turtles, Volume III, edited by Jeanette Wyneken Kenneth J. Lohmann John A Musick, 189–211. CRC Marine Science
 
-### My TFG: García-Estupiñán, J.C. (2022). Análisis estadístico de Tortugas marinas varadas en Tenerife, Islas Canarias. University if La Laguna.
+### My TFG: García-Estupiñán, J.C. (2022). Análisis estadístico de Tortugas marinas varadas en Tenerife, Islas Canarias. University of La Laguna.
 
