@@ -230,6 +230,12 @@ pca_biomet %>%
     legend.background = element_rect(color = "black", fill = NA),
     legend.margin = margin(t = -.1, r = .1, b = .1, l = .1, unit = "cm")
   )
+
+ggsave("biometria2.png", path = "C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tahonilla\\graficas",
+       width = 13, height = 9,
+       units = "cm")
+
+
 ##############
 # Gráfico 3d #
 ##############

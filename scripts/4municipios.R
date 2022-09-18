@@ -72,7 +72,7 @@ graf_muni <- municipios_bien %>%
     panel.background = element_blank(),
     # plot.background = element_rect(fill = "lightblue2", color = "lightblue2"),
     panel.grid = element_blank(),
-    plot.title = element_markdown(margin = margin(b = 1, unit = "lines")),
+    plot.title = element_text(margin = margin(b = 1, unit = "lines")),
     axis.line.x = element_line(),
     title = element_markdown(size = 11, face = "bold"),
     axis.ticks.x = element_blank(),
@@ -199,7 +199,7 @@ graf_adeje <- adeje_anio %>%
     panel.background = element_blank(),
     # plot.background = element_rect(fill = "lightblue2", color = "lightblue2"),
     panel.grid = element_blank(),
-    plot.title = element_markdown(size=12),
+    plot.title = element_text(size=12),
     axis.line.x = element_line(),
     title = element_markdown(size = 11, face = "bold"),
     axis.ticks.x = element_blank(),
@@ -262,7 +262,10 @@ df_pc_causas <- df_puerto_colon_causas %>%
                         levels = c("Artes de pesca","Enmallada","Hidrocarburos",
                                    "Choque con embarcación","Choques","Enfermedad",
                                    "Debilidad agotamiento","Soleándose","Indeterminado",
-                                   "Otros","NA"))) %>%
+                                   "Otros","NA"),
+                        labels = c("Fishing gear", "entangled", "hydrocarbons", "Boat strike",
+                                   "Strikes", "Disease", "weakness/exhaustion","sunbathing",
+                                   "Undeterminated","Others","NA"))) %>%
   group_by(anio) %>%
   mutate(causa_n=(n/sum(n))*100) %>% 
   ggplot(aes(anio,causa_n, fill=causa)) +
@@ -271,28 +274,35 @@ df_pc_causas <- df_puerto_colon_causas %>%
   scale_fill_manual(values = c("purple","violet","darkred","red","salmon",
                                "forestgreen","yellowgreen","yellow","blue4","blue",
                                "cyan")) +
-  labs(title = "Causas actuales Puerto Colòn",
-       x="Año",
-       y="Porcentaje") +
+  labs(title = "Recent causes in Puerto Colòn",
+       x="Year",
+       y="Percentage",
+       fill="Cause") +
   scale_y_continuous(expand = expansion(0)) +
-  theme(panel.background = element_rect(fill = "azure", color = "azure"),
-        plot.background = element_rect(fill = "lightblue2", color = "lightblue2"),
-        panel.grid = element_blank(),
-        plot.title = element_markdown(margin = margin(b = 1, unit = "lines")),
-        axis.line.x = element_line(),
-        title = element_markdown(size = 13, face = "bold"),
-        axis.ticks.x = element_blank(),
-        axis.text.x = element_markdown(size=12),
-        axis.title.x = element_text(margin = margin(t = 10), size=15),
-        axis.title.y = element_text(margin = margin(r = 10), size=15),
-        plot.caption =  element_markdown(hjust = 0, face = "italic"),
-        legend.key.size = unit(.4,"cm"),
-        legend.background = element_rect(fill = "lightblue2"));df_pc_causas
+  theme(
+      panel.background = element_rect(fill="white"),
+      plot.background = element_rect(fill="white"),
+      panel.grid = element_blank(),
+      plot.title = element_markdown(margin = margin(b = 1, unit = "lines")),
+      axis.line.x = element_line(),
+      title = element_markdown(size = 13, face = "bold"),
+      axis.ticks.x = element_blank(),
+      axis.text.x = element_markdown(size=11),
+      axis.title.x = element_text(margin = margin(t = 10), size=15),
+      axis.title.y = element_text(margin = margin(r = 10), size=15),
+      plot.caption =  element_markdown(hjust = 0, face = "italic"),
+      legend.key.size = unit(.4,"cm"),
+      legend.background = element_rect(fill = "white"));df_pc_causas
 
 uno <- plot_grid(graf_muni,"",
-          rel_widths = c(1,0))
+          rel_widths = c(1,0),
+          labels = c("A",""))
 dos <- plot_grid(graf_adeje,df_pc_causas,
-                 rel_widths = c(.42,.58))
+                 rel_widths = c(45,65),
+                 labels = c("B", "C"))
 dos
 plot_grid(uno,dos,
           ncol = 1)
+
+ggsave("muni.png", path = "C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tahonilla\\graficas",
+       width = 9.35, height = 6.5)

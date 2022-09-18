@@ -93,8 +93,8 @@ graf_lesion <- lesion %>%
             aes(x=x,y=y,label=n_character),inherit.aes = F) +
   scale_x_discrete(breaks = c(NA,"Varias lesiones","Enredadas","Cortes","Amputación","Anzuelos",
                               "Herida","Nada","Fracturas","Petroleadas","Parásitos","Ahogadas"),
-                   labels = c("No clasificado","Varias lesiones","Enredadas","Cortes","Amputación","Anzuelos",
-                              "Herida","Nada","Fracturas","Petroleadas","Parásitos","Ahogadas")) +
+                   labels = c("Unclassified","Many injuries","Entangled","Cuts","Amputation","Hooks",
+                              "Wound","Nothing","Fractures","Oiled","Parasites","Drowned")) +
   scale_fill_manual(breaks = c(NA,"Varias lesiones","Enredadas","Cortes","Amputación","Anzuelos",
                                "Herida","Nada","Fracturas","Petroleadas","Parásitos","Ahogadas"),
                     values = c("lightslategray","navajowhite1","salmon4","cadetblue2","grey28","goldenrod2",    
@@ -103,14 +103,13 @@ graf_lesion <- lesion %>%
   scale_y_continuous(expand = expansion(0),
                      limits = c(0,1300),
                      breaks = seq(0,1100,200)) +
-  labs(x = "Lesión",
-       y = "Núm.tortugas",
-       title = "Lista de lesiones") +
+  labs(x = "Injury",
+       y = "Num.turtles",
+       title = "List of turtle injuries") +
   theme(
-    # panel.background = element_rect(fill = "azure", color = "azure"),
-    #     plot.background = element_rect(fill = "lightblue2", color = "lightblue2"),
-    #     panel.grid = element_blank(),
-        panel.background = element_blank(),
+        panel.background = element_rect(fill = "white", color = "white"),
+        plot.background = element_rect(fill = "white", color = "white"),
+    #   panel.grid = element_blank(),
         axis.line.x = element_line(),
         title = element_markdown(size = 10, face = "bold"),
         #axis.ticks.x = element_blank(),
@@ -143,8 +142,8 @@ graf_cuerpo <- cuerpo %>%
             aes(x=x,y=y,label=n_character),inherit.aes = F) +
   scale_x_discrete(breaks=c(NA,"Aleta","Varias","Caparazón",
                             "Boca","Cuello","Ojos","Nada","Cabeza"),
-                   labels=c("No clasificado","Aleta","Varias","Caparazón",
-                            "Boca","Cuello","Ojos","Nada","Cabeza")) +
+                   labels=c("Unclassified ","Fin","Many","Carapace",
+                            "Mouth","Neck","Esyes","Nothing","Head")) +
   scale_fill_manual(breaks = c("Aleta","Varias","Caparazón","Boca",
                                "cuello","Ojos","Cabeza"),
                     values = c("lightslategray","navajowhite1","salmon4","cadetblue2","grey28","goldenrod2",    
@@ -153,14 +152,12 @@ graf_cuerpo <- cuerpo %>%
                      limits = c(0,1150),
                      breaks = seq(0,900,150)) +
   coord_flip() +
-  labs(y = "Núm.tortugas",
-       x = "Parte",
-       title = "Lista del Cuerpo") +
+  labs(y = "Num.turtles",
+       x = "Part of the body",
+       title = "Part of the body affected list") +
   theme(
-    # panel.background = element_rect(fill = "azure", color = "azure"),
-    #     plot.background = element_rect(fill = "lightblue2", color = "lightblue2"),
-    #     panel.grid = element_blank(),
-        panel.background = element_blank(),
+        panel.background = element_rect(fill = "white", color = "white"),
+        plot.background = element_rect(fill = "white", color = "white"),
         axis.line.x = element_line(),
         title = element_markdown(size = 10, face = "bold"),
         #axis.ticks.x = element_blank(),
@@ -199,16 +196,14 @@ graf_estado <- estado %>%
                                "gray93","olivedrab3","brown2","pink4","grey20","gray60","blue")) +
   scale_x_discrete(breaks=c(NA,"Necrosada","Infección","Flaca","Muerta","Nada",
                             "Débil","Putrefacta"),
-                   labels=c("No clasificado","Necrosada","Infección","Flaca","Muerta","Nada",
-                            "Débil","Putrefacta")) +
-  labs(x = "Estado",
-       y = "Núm.Tortugas",
-       title = "Lista de Estado") +
+                   labels=c("Unclassified ","Necrotic","Infection","Skinny","Dead","Nothing",
+                            "Weak","Putrefacted")) +
+  labs(x = "State",
+       y = "Num.Turtles",
+       title = "State of the turtle list") +
   theme(
-    # panel.background = element_rect(fill = "azure", color = "azure"),
-    #     plot.background = element_rect(fill = "lightblue2", color = "lightblue2"),
-    #     panel.grid = element_blank(),
-        panel.background = element_blank(),
+        panel.background = element_rect(fill = "white", color = "white"),
+        plot.background = element_rect(fill = "white", color = "white"),
         axis.line.x = element_line(),
         title = element_markdown(size = 10, face = "bold"),
         #axis.ticks.x = element_blank(),
@@ -236,6 +231,9 @@ columna_2 <- plot_grid(graf_lesion,"",
 
 plot_grid(columna_1,columna_2)
 
+ggsave("obs1.png", path = "C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tahonilla\\graficas",
+         width = 7.5, height = 5)
+
 #################################################
 #### Compbinación entre lesion-cuerpo-estado ####
 #################################################
@@ -256,18 +254,18 @@ map_calor1 <- lesion.cuerpo %>%
   filter(!(lesion %in% NA) &  !(cuerpo %in% NA)) %>% 
   ggplot(aes(lesion, cuerpo, fill = n)) +
   geom_tile(col = "black", alpha = .9) +
-  labs(x = "Lesión",
-       y = "Parte",
-       title = "Lesión vs cuerpo",
+  labs(x = "Injury",
+       y = "Body",
+       title = "Injury vs body",
        caption = "") +
   scale_x_discrete(breaks=c("Ahogadas","Amputación","Anzuelos","Cortes","Enredadas","Fracturas",
                             "Herida","Nada","Parásitos","Petroleadas","Varias lesiones"),
-                   label=c("Ahogadas","Amputación","Anzuelos","Cortes","Enredadas","Fracturas",
-                           "Herida","Nada","Parásitos","Petroleadas","Varias")) +
+                   label=c("Drowned","Amputation","Hooks","Cuts","Entangled","Fractures",
+                           "Wound","Nothing","Parasites","Oiled","Many")) +
   scale_y_discrete(breaks=c("Varias","Ojos","Nada","Cuello",
                             "Caparazón","Cabeza","Boca","Aleta"),
-                   label=c("Varias","Ojos","Nada","Cuello",
-                           "Caparazón","Cabeza","Boca","Aleta")) +
+                   label=c("Many","Eyes","Nothing","Neck",
+                           "Carapace","Head","Mouth","Fin")) +
   scale_fill_gradient(name="Nº tort.",
                       low = "skyblue", high = "red") +
   theme(
@@ -302,14 +300,18 @@ map_calor2 <-  lesion.estado %>%
    # summarise(n=n())
   ggplot(aes(lesion, estado, fill = n)) +
   geom_tile(col = "black", alpha = .9) +
-  labs(x = "Lesión",
-       y = "Estado",
-       title = "Lesión vs Estado",
+  labs(x = "Injury",
+       y = "State",
+       title = "Injury vs State",
        caption = "") +
   scale_x_discrete(breaks=c("Ahogadas","Amputación","Anzuelos","Cortes","Enredadas","Fracturas",
                             "Herida","Nada","Parásitos","Petroleadas","Varias lesiones"),
-                   label=c("Ahogadas","Amputación","Anzuelos","Cortes","Enredadas","Fracturas",
-                           "Herida","Nada","Parásitos","Petroleadas","Varias")) +
+                   label=c("Drowned","Amputation","Hooks","Cuts","Entangled","Fractures",
+                           "Wounds","NOthing","Parasites","Oiled","Many")) +
+  scale_y_discrete(breaks = c("Putrefacta", "Necrosada", "Nada", "Muerta", "Infección",
+                                "Flaca", "Débil"),
+                     labels = c("Putrefacted","Necrotic","Nothing","Dead","Infection",
+                                "Skinny","Weak")) +
   scale_fill_gradient(name="Nº tort.",
                       low = "skyblue", high = "red") +
   theme(
@@ -340,9 +342,13 @@ map_calor3 <- estado.cuerpo %>%
   filter(!(estado %in% NA) &  !(cuerpo %in% NA)) %>% 
   ggplot(aes(estado, cuerpo, fill = n)) +
   geom_tile(col = "black", alpha = .9) +
-  labs(x = "Estado",
-       y = "Parte",
-       title = "Estado vs cuerpo") +
+  labs(x = "State",
+       y = "Body",
+       title = "State vs Body") +
+  scale_x_discrete(breaks = c("Débil", "Flaca", "Infección", "Muerta", "Nada", "Necrosada", "Putrefacta"),
+                   labels = c("Weak", "Skinny", "Infection", "Dead", "Nothing","Necrotic", "Putrefacted")) +
+  scale_y_discrete(breaks = c("Varias", "Ojos", "Nada", "Cuello", "Caparazón", "Cabeza", "Boca", "Aleta"),
+                     labels = c("Many", "Eyes", "Nothing", "Neck", "Carapace", "Head", "Mouth", "Fin")) +
   scale_fill_gradient(name="Nº tort.",
                       low = "skyblue", high = "red") +
   theme(
@@ -376,6 +382,8 @@ fila_2 <- plot_grid(map_calor1,"C",
 plot_grid(fila_1,fila_2,
           ncol = 1, nrow = 2)
 
+# ggsave("obs2.png", path = "C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tahonilla\\graficas",
+#         width = 9, height = 6)
 
 
 ################################################################################

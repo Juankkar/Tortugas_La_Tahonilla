@@ -216,6 +216,9 @@ plot_grid(gfe_bar_n,graf_est,
           rel_heights = c(.5,.75),
           labels = c("A","B"))
 
+ggsave("temporal1.png", path = "C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tahonilla\\graficas",
+       width = 7, height = 6)
+
 #-------------------------------------------------------------------------------#
 
 
@@ -223,6 +226,7 @@ plot_grid(gfe_hist,gfe_kw,
           rel_widths = c(.4,.6),
           labels = c("A","B"))
 
-
+ggsave("Rplot01.png", path = "C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tahonilla\\graficas",
+       width = 6.5, height = 3.5)
 
 
