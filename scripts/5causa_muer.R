@@ -199,8 +199,8 @@ dfc_completo %>%
         legend.background = element_rect(fill = "white"))
 
 # ggsave("causas_evolucion.png", path = "C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tahonilla\\graficas",
-#       width = 10,
-#       height = 5)
+#       width = 7,
+#       height = 4)
 
 
 # Comparación de los grupos, Causas humanas, causas naturales, Indeterminados-otros
@@ -267,7 +267,7 @@ gfc_anova <- dfc_ult.decada %>%
         x = "Causes",
         y = "Num.turtles") +
   scale_x_discrete(breaks=c("Anthropogenics","Naturals","Non clasificated"),
-                   labels=c("Anthropogenics\n(n=9)", "Naturals\n(n=9)","Non clasificated\n(n=9)")) +
+                   labels=c("Anthropogenics\n(n=9)", "Naturals\n(n=9)","Non classificated\n(n=9)")) +
   scale_fill_manual(values = c("pink","yellowgreen","skyblue2")) +
   theme_classic() +
   theme(
@@ -315,7 +315,7 @@ gfc_hist2 <- dfc_2000_2011 %>%
                  show.legend = F) +
   facet_wrap(~causa, ncol = 2) +
   scale_fill_manual(values = c("pink","yellowgreen","skyblue2")) +
-  labs(title = "Distribuyion pf the data",
+  labs(title = "Distribution pf the data",
        subtitle = "Years: 2001-12",
        x="Num.turtles",
        y="Frecuency") +
@@ -382,12 +382,20 @@ plot_causas1 <- plot_grid(gfc_hist.1,gfc_anova,
           labels = c("A","B"))
 plot_causas1
 
+# ggsave("causa3.png", path = "C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tahonilla\\graficas",
+#        width=7, height=3.5)
+
 ### K-W 1
 
 plot_causas2 <- plot_grid(gfc_hist2,gfc_kw,
           rel_widths = c(.4,.6),
           labels = c("A","B"))
 plot_causas2
+
+# ggsave("causa2.png",
+#        path = "C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tahonilla\\graficas",
+#        width=7, height=3.5)
+
 
 plot_grid(plot_causas2,
           plot_causas1,
@@ -457,8 +465,8 @@ muerte_cajas <- anio_muerte %>%
               position = position_jitterdodge(1,seed = 20101997),
               ) +
   geom_boxplot(alpha=.5, width=.5, show.legend = F) +
-  labs(title = "Turtles <span style = 'color: gray'>Alive</span>/Dead on the arrival",
-       subtitle = glue("*W* = {wilcox_estadistico}; *p* = {wilcox1_pvalue}***"),
+  labs(title = "<span style = 'color: gray'>Alive</span>/Dead on the arrival",
+       subtitle = glue("*W* = {wilcox1_estadistico}; *p* = {wilcox1_pvalue}***"),
        x="Condition",
        y="Num.turtles") +
   scale_fill_manual(values = c("white","black")) +
@@ -466,7 +474,6 @@ muerte_cajas <- anio_muerte %>%
                    labels=c("Alive\n(n=22)","Dead\n(n=22)")) +
   theme_classic() +
   theme(
-    # plot.background = element_rect(fill = "lightblue2", color = "lightblue2"), 
     panel.background = element_blank(),
     panel.grid = element_blank(),
     plot.title = element_markdown(size = 11, face = "bold", hjust = .5),
@@ -475,8 +482,6 @@ muerte_cajas <- anio_muerte %>%
     axis.text.x = element_text(size=12),
     strip.background = element_blank(),
     strip.text = element_text(face = "bold")
-    # axis.title.x = element_text(margin = margin(r=10)),
-    # axis.title.x = element_text(margin = margin(r=10))
   );muerte_cajas
 
 # Ambos gráficos juntos
@@ -576,7 +581,7 @@ boxplot_rehab <-  rehab_plis %>%
   geom_jitter(pch=21, show.legend = F, 
               position = position_jitterdodge(1,seed = 20101997)) +
   geom_boxplot(alpha=.5, width=.5, show.legend = F) +
-  labs(title = "Turtles <span style = 'color: gray45'>Rehabilitates</span>/<span style = 'color: orange'>No rehabilitates</span>",
+  labs(title = "<span style = 'color: gray45'>Rehabilitates</span>/<span style = 'color: orange'>No rehabilitates</span>",
        subtitle = glue("*W* = {wilcox1_m_estadistico}; *p* = {wilcox1_m_pvalue}***"),
        x="Condition",
        y="Num.turtles") +
@@ -586,7 +591,6 @@ boxplot_rehab <-  rehab_plis %>%
   theme_classic() +
   theme(
     # plot.background = element_rect(fill = "lightblue2", color = "lightblue2"), 
-    panel.background = element_rect(fill = "azure1", color = "azure1"),
     panel.grid = element_blank(),
     plot.title = element_markdown(size = 11, face = "bold", hjust = .5),
     plot.subtitle = element_markdown(hjust = .5),
@@ -602,6 +606,11 @@ plot_grid(muerte_hist, muerte_cajas,
           labels = c("A","B",
                      "C","D"))
 
+ggsave("muerte.png", path = "C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tahonilla\\graficas",
+       width=7,
+       height=5)
+
+?ggsave
 colors()
 #-------------------------------------------------------------------------#
 # Tabla de datos de estadísticos descriptivos... a ver como lo hacemos... #
