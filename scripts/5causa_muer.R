@@ -392,9 +392,9 @@ plot_causas2 <- plot_grid(gfc_hist2,gfc_kw,
           labels = c("A","B"))
 plot_causas2
 
-# ggsave("causa2.png",
-#        path = "C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tahonilla\\graficas",
-#        width=7, height=3.5)
+ ggsave("causas2.png",
+        path = "C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tahonilla\\graficas",
+        width=7, height=3.5)
 
 
 plot_grid(plot_causas2,
