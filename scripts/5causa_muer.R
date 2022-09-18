@@ -178,7 +178,7 @@ dfc_completo %>%
   scale_color_manual(
                      breaks = c("Causas humanas","Causas naturales",
                                 "Indet./Otros"),
-                     labels= c("Anthropogenics","Naturals","Non clasificated"),
+                     labels= c("Anthropogenics","Naturals","Non classificated"),
                      values = c("pink","yellowgreen","skyblue2"),
                      ) + 
   theme_classic() +
@@ -198,7 +198,9 @@ dfc_completo %>%
         legend.position = "top",
         legend.background = element_rect(fill = "white"))
 
-
+# ggsave("causas_evolucion.png", path = "C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tahonilla\\graficas",
+#       width = 10,
+#       height = 5)
 
 
 # Comparación de los grupos, Causas humanas, causas naturales, Indeterminados-otros

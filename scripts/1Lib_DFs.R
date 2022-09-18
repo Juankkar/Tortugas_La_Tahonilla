@@ -27,11 +27,11 @@ library(xlsx)
 library(readxl)
 
 
-#--------------------------------------------------------------------------------------------------------------#
-#                                           Data de todas las tortugas                                         #
-#--------------------------------------------------------------------------------------------------------------#
+#--------------------------------------------------------------------------------------------------------------# 
+#                                           Data de todas las tortugas                                         # 
+#--------------------------------------------------------------------------------------------------------------# 
 
-df_tortugas2 <-  read_excel("C:/Users/jcge9/Desktop/TFG/TFG_R/data_tortugas.xlsx", 
+df_tortugas2 <-  read_excel("C:/Users/jcge9/Desktop/TFG/TFG_R/data_tortugas.xlsx",  
                                             col_types = c("numeric", "text", "text", 
                                                           "text", "date", "date", "text", "text", 
                                                           "text", "text", "text", "text", 

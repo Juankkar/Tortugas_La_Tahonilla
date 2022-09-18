@@ -153,6 +153,9 @@ cm <- estudio_l_cm %>%
 
 plot_grid(cc,cm)
 
+# ggsave("biometria1.png", path="C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tahonilla\\graficas",
+#       width = 9,
+#       height = 4)
 
 
 #------------------------------------------------------------------------------#
