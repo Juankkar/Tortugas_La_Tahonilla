@@ -232,8 +232,7 @@ pca_biomet %>%
   )
 
 ggsave("biometria2.png", path = "C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tahonilla\\graficas",
-       width = 13, height = 9,
-       units = "cm")
+       width = 7, height = 3.75)
 
 
 ##############
