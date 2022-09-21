@@ -239,17 +239,20 @@ ggsave("biometria2.png", path = "C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tah
 # Gráfico 3d #
 ##############
 library(rgl)
-biomet_3d <- pca_biomet %>% 
-  mutate(color=case_when(estadio=="Cría"~"blue",
-                         estadio=="Juv.pequeño"~"red",
-                         estadio=="Juv.grande"~"gray",
-                         estadio=="Subadulto"~"yellow",
-                         estadio=="Adulto"~"forestgreen",
+biomet_3d <- as_tibble(pca_biomet) %>% 
+  mutate(color=case_when(estadio=="Hatchling"~"red",
+                         estadio=="Small.Juv"~"gray",
+                         estadio=="Big.Juv"~"forestgreen",
+                         estadio=="Subadult"~"blue",
+                         estadio=="Adult"~"orange",
                          TRUE~NA_character_)) 
 
 plot3d(x=pca_biomet$PC1,y=pca_biomet$PC2,z=pca_biomet$PC3,
        col = biomet_3d$color, type = "s", size = 1,
-       xlab = "PC1 (94%)", ylab="PC2 (4%)", zlab="PC3 (1%)")
+       xlab = "PC1 (~94% variance explined)", ylab="PC2 (~4% variance explined)", zlab="PC3 (~1% variance explained)")
+
+movie3d(spin3d(axis = c(0,0,1), rpm=4), duration = 15, 
+        dir = "C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tahonilla\\graficas")
 
 #################################
 # Son significativos los grupo? #
@@ -305,9 +308,9 @@ pca_biomet %>%
 
 biomet_3d.2 <- pca_biomet %>% 
   mutate(color.2=case_when(estacion=="Primavera"~"yellowgreen",
-                         estacion=="Verano"~"magenta",
-                         estacion=="Otoño"~"orange",
-                         estacion=="Invierno"~"cyan",
+                           estacion=="Verano"~"magenta",
+                           estacion=="Otoño"~"orange",
+                           estacion=="Invierno"~"cyan",
                          TRUE~NA_character_)) %>% view()
 
 plot3d(x=pca_biomet$PC1,y=pca_biomet$PC2,z=pca_biomet$PC3,
@@ -334,3 +337,38 @@ pairs.panels(biomet.cc[,c("lrc","lcc","arc","acc","peso")],
              main = "Correlacion lineal tortuga boba")
 
 
+rotados <- principal(variables, rotate = "varimax", nfactors = 2, scores = TRUE)
+
+cr_biometria <- as_tibble(rotados$scores[,c(1,2)]) %>% 
+   mutate(estadio = biomet.cc$estadio,
+          estadio=factor(estadio,
+                        levels = c("Hatchling","Small.Juv",
+                                   "Big.Juv","Subadult",
+                                   "Adult"))) 
+
+cr_biometria %>%
+  ggplot(aes(RC1, RC2, fill=estadio, color=estadio)) +
+  geom_point() +
+  theme_classic() +
+  labs(x=glue("PC1 ({var_pc1}% explained variance)"),
+       y=glue("PC2 ({var_pc2}% explained variance)"),
+       fill=NULL,
+       color=NULL,
+       title = "PCA Biometric variables") +
+  stat_ellipse(geom = "polygon", alpha=.25) +
+  geom_vline(xintercept = 0, linetype = "dashed") +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  scale_color_manual(values = c("red", "gray","forestgreen",
+                                "blue","orange")) +
+  scale_fill_manual(values = c("red", "gray","forestgreen",
+                               "blue","orange")) +
+  theme(
+    # plot.background = element_rect(fill = "lightblue2", color = "lightblue2"),
+    panel.background = element_blank(),
+    panel.grid = element_line(color = "lightblue4"),
+    plot.title = element_text(face="bold", hjust = .5, size = 14),
+    axis.title = element_text(face = "bold", size = 12),
+    legend.position = "top",
+    legend.background = element_rect(color = "black", fill = NA),
+    legend.margin = margin(t = -.1, r = .1, b = .1, l = .1, unit = "cm")
+  )
