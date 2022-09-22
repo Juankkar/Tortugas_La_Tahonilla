@@ -304,5 +304,5 @@ dos
 plot_grid(uno,dos,
           ncol = 1)
 
-ggsave("muni.png", path = "C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tahonilla\\graficas",
+ggsave("muni.png", path = "C:\\Users\\jcge9\\Desktop\\cuarto_carrera\\Tortugas_La_Tahonilla\\graficas",
        width = 9.35, height = 6.5)
