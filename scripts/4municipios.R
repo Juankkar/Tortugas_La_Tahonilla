@@ -57,7 +57,7 @@ graf_muni <- municipios_bien %>%
                      breaks = seq(0,50,10)) +
   labs(x = "Municipality",
        y = "Percentage",
-       title = "municipality of origin") +
+       title = "Municipality of origin") +
   scale_x_discrete(breaks=c("Adeje","Arico","Santa Cruz de Tenerife","Arona",
                             "Santiago del Teide","Granadilla de Abona","Otros","Candelaria",
                             "Güímar","Rosario, El","San Cristóbal de La Laguna",
