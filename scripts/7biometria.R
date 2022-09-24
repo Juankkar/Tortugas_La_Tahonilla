@@ -212,27 +212,27 @@ pca_biomet %>%
        y=glue("PC2 ({var_pc2}% explained variance)"),
        fill=NULL,
        color=NULL,
-       title = "PCA Biometric variables") +
+       title = glue("PCA Biometric variables,<br><span style='color: red'>acumulative varianze explained: {var_pc1+var_pc2}%</span>")) +
   stat_ellipse(geom = "polygon", alpha=.25) +
   geom_vline(xintercept = 0, linetype = "dashed") +
   geom_hline(yintercept = 0, linetype = "dashed") +
-  scale_color_manual(values = c("red", "gray","forestgreen",
+  scale_color_manual(values = c("magenta", "gray","forestgreen",
                                 "blue","orange")) +
-  scale_fill_manual(values = c("red", "gray","forestgreen",
+  scale_fill_manual(values = c("magenta", "gray","forestgreen",
                                "blue","orange")) +
   theme(
     # plot.background = element_rect(fill = "lightblue2", color = "lightblue2"),
     panel.background = element_blank(),
     panel.grid = element_line(color = "lightblue4"),
-    plot.title = element_text(face="bold", hjust = .5, size = 14),
+    plot.title = element_markdown(face="bold", hjust = .5, size = 14),
     axis.title = element_text(face = "bold", size = 12),
     legend.position = c(.6,.3),
     legend.background = element_rect(color = "black", fill = NA),
     legend.margin = margin(t = -.1, r = .1, b = .1, l = .1, unit = "cm")
   )
 
-ggsave("biometria2.png", path = "C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tahonilla\\graficas",
-       width = 7, height = 3.75)
+ggsave("biometria2.png", path = "C:\\Users\\jcge9\\Desktop\\cuarto_carrera\\Tortugas_La_Tahonilla\\graficas",
+       width = 7, height = 4.25)
 
 
 ##############
