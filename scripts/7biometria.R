@@ -136,7 +136,7 @@ cm <- estudio_l_cm %>%
   labs(title = "Curve of the caparace longitude, *C.mydas*",
        subtitle="n = (18)",
        x="CCL (cm)",
-       y="Núm.tortugas") +
+       y="Num.turtles") +
   theme_pander() +
   theme(
     # plot.background = element_rect(fill = "lightblue2", color = "lightblue2"),
@@ -153,9 +153,9 @@ cm <- estudio_l_cm %>%
 
 plot_grid(cc,cm)
 
-# ggsave("biometria1.png", path="C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tahonilla\\graficas",
-#       width = 9,
-#       height = 4)
+ ggsave("biometria1.png", path="C:\\Users\\jcge9\\Desktop\\cuarto_carrera\\Tortugas_La_Tahonilla\\graficas",
+       width = 9,
+       height = 4)
 
 
 #------------------------------------------------------------------------------#
