@@ -251,8 +251,7 @@ plot3d(x=pca_biomet$PC1,y=pca_biomet$PC2,z=pca_biomet$PC3,
        col = biomet_3d$color, type = "s", size = 1,
        xlab = "PC1 (~94% variance explined)", ylab="PC2 (~4% variance explined)", zlab="PC3 (~1% variance explained)")
 
-movie3d(spin3d(axis = c(0,0,1), rpm=4), duration = 15, 
-        dir = "C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tahonilla\\graficas")
+
 
 #################################
 # Son significativos los grupo? #
