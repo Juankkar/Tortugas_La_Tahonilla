@@ -21,7 +21,7 @@ The Chelonian order is formed by two families and seven species of sea turtles, 
 * *Eretmochelys imbricata* (hawksbill turtle): 1
 * *Lepidochelys olivacea* (Olive ridley turtle): 1
 
-We did a biometric study of the turtles. First, We used the carapace curved length (what is known by "CCL"). Some authors (*Liria-Lozoa et al., 2018*) have used this parameter to determined the state of their lifecycle (more likely for the loggerheads and green turtles).
+We did a biometric study of the turtles. First, We used the Curved of the caparace longitude (what is known by "CCL"). Some authors (*Liria-Lozoa et al., 2018*) have used this parameter to determined the state of their lifecycle (more likely for the loggerheads and green turtles).
 
 What we saw was that, approximatly 90% of the loggerhead turtles were juveniles. In case of the green turtle; the sample was too small in order to take some good conclusions.
 
