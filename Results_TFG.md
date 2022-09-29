@@ -25,7 +25,7 @@ We did a biometric study of the turtles. First, We used the carapace curved leng
 
 What we saw was that, approximatly 90% of the loggerhead turtles were juveniles. In case of the green turtle; the sample was too small in order to take some good conclusions.
 
-The results of the loggerhead has sense because the Canary Islands is a place for the juveniles to feed (Investigadores de la ULL colaboran con pescadores y cofradías para proteger a las tortugas boba y verde, 2022; Liria-Lozoa *et al.*, 2021; Mansfield & Putman, 2013), before they continue with migration patterns to reproduction routes (like Cabo Verde for example).
+The results of the loggerhead has sense because the Canary Islands is a place for the juveniles to feed (Investigadores de la ULL colaboran con pescadores y cofradías para proteger a las tortugas boba y verde, 2022; Liria-Lozoa *et al.*, 2021; Mansfield & Putman, 2013), before they continue with migration patterns to reproduction routes (like Cabo Verde).
 
 ---
 
@@ -43,7 +43,7 @@ After that, we did a Principal Component Analisis (PCA), in order to try to extr
 
 We used the Pearson Correlation Test, to compare the PC, with the biometrics variables. All of them  were highly correlated and negatively with the first component. Meanwhile, the second component, the only variable with a respectful (but not high at all) level of negative correlation, was the weight. The size of the carapace for the second on the other hand were poorly positive correlated.
 
-This could mean that the PC1 would explain that the turtles that are growing in carapace size and also weight, are in the left of the graph of the **Figure 4**. In this case when we put the results of the lifecycle, groups were formed and ordered coherently:: 
+This could mean that the PC1 would explain that the turtles that are growing in carapace size and also weight, are more in the left of the graph of the **Figure 4**. In this case when we put the results of the lifecycle, groups were formed and ordered coherently:
 
 1. Hatchlings 
 2. Juveniles (small and bigs) 
@@ -60,7 +60,7 @@ The second component could mean that the ones in the positive frame of the PC2 a
 
 </p>
 
-***Figure 4.*** *PCA of the biometric variables (loggerhead turtle). Different groups depending on the living cycle are formed*
+***Figure 4.*** *PCA of the biometric variables (loggerhead turtle). Different groups depending on the living cycle were formed*
 
 ---
 
