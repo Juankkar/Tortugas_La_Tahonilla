@@ -77,7 +77,7 @@ cc <- estudio_l_c %>%
                    labels=c("(<20cm)\nHatchling","(20-40cm)\nSmall\njuvenile",
                             "(40-60cm)\nBig\njuvenile","(60-80cm)\nSubadult",
                             "(>80cm)\nAdult")) +
-  labs(title = "Curve of the carapace longitude, *C.caretta*",
+  labs(title = "Curved caparace length, *C.caretta*",
        subtitle="n = (671)",
        x="CCL (cm)",
        y="Num.turtles") +
@@ -133,7 +133,7 @@ cm <- estudio_l_cm %>%
                    labels=c("(<20cm)\nHatchling","(20-40cm)\nSmall\njuvenile",
                             "(40-60cm)\nBig\njuvenile","(60-80cm)\nSubadult",
                             "(>80cm)\nAdult")) +
-  labs(title = "Curve of the caparace longitude, *C.mydas*",
+  labs(title = "Curved caparace lenght, *C.mydas*",
        subtitle="n = (18)",
        x="CCL (cm)",
        y="Num.turtles") +
@@ -153,9 +153,9 @@ cm <- estudio_l_cm %>%
 
 plot_grid(cc,cm)
 
- ggsave("biometria1.png", path="C:\\Users\\jcge9\\Desktop\\cuarto_carrera\\Tortugas_La_Tahonilla\\graficas",
-       width = 9,
-       height = 4)
+# ggsave("biometria1.png", path="C:\\Users\\jcge9\\Desktop\\cuarto_carrera\\Tortugas_La_Tahonilla\\graficas",
+#       width = 9,
+#       height = 4)
 
 
 #------------------------------------------------------------------------------#
