@@ -178,7 +178,7 @@ dfc_completo %>%
   scale_color_manual(
                      breaks = c("Causas humanas","Causas naturales",
                                 "Indet./Otros"),
-                     labels= c("Anthropogenics","Naturals","Non classificated"),
+                     labels= c("Anthropogenics","Naturals","Unclassified"),
                      values = c("pink","yellowgreen","skyblue2"),
                      ) + 
   theme_classic() +
@@ -198,9 +198,9 @@ dfc_completo %>%
         legend.position = "top",
         legend.background = element_rect(fill = "white"))
 
-# ggsave("causas_evolucion.png", path = "C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tahonilla\\graficas",
-#       width = 7,
-#       height = 4)
+ ggsave("causas_evolucion.png", path = "C:\\Users\\jcge9\\Desktop\\cuarto_carrera\\Tortugas_La_Tahonilla\\graficas",
+       width = 7,
+       height = 4)
 
 
 # Comparación de los grupos, Causas humanas, causas naturales, Indeterminados-otros
@@ -267,7 +267,7 @@ gfc_anova <- dfc_ult.decada %>%
         x = "Causes",
         y = "Num.turtles") +
   scale_x_discrete(breaks=c("Anthropogenics","Naturals","Non clasificated"),
-                   labels=c("Anthropogenics\n(n=9)", "Naturals\n(n=9)","Non classificated\n(n=9)")) +
+                   labels=c("Anthropogenics\n(n=9)", "Naturals\n(n=9)","Unclassified\n(n=9)")) +
   scale_fill_manual(values = c("pink","yellowgreen","skyblue2")) +
   theme_classic() +
   theme(
@@ -309,7 +309,7 @@ gfc_hist2 <- dfc_2000_2011 %>%
   mutate(causa=factor(causa,
                       levels = c("Causas humanas","Causas naturales",
                                  "Indet./Otros"),
-                      labels = c("Anthropogenics","Naturals","Non classificated"))) %>% 
+                      labels = c("Anthropogenics","Naturals","Unclassified"))) %>% 
   ggplot(aes(n, fill = causa)) +
   geom_histogram(col = "black", bins = 20,
                  show.legend = F) +
@@ -347,7 +347,7 @@ gfc_kw <- dfc_2000_2011 %>%
   #              width = .35, show.legend = F) +
   scale_fill_manual(values = c("pink","yellowgreen","skyblue2")) +
   scale_x_discrete(breaks=c("Causas humanas", "Causas naturales","Indet./Otros"),
-                   labels=c("Anthropogenics","Naturals","Non classificated")) +
+                   labels=c("Anthropogenics","Naturals","Unclassified")) +
   labs(title = "Comparison of the 2001-12 causes",
        subtitle = glue("*X\u00B2 Kruskal-Wallis* = {c_kw2_estadistico}; *p* = {c_kw2_pvalue}***<br>Post-hoc: Dunnet Test (correction: Bonf.)"),
        x = "Causes",
@@ -382,8 +382,8 @@ plot_causas1 <- plot_grid(gfc_hist.1,gfc_anova,
           labels = c("A","B"))
 plot_causas1
 
-# ggsave("causa3.png", path = "C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tahonilla\\graficas",
-#        width=7, height=3.5)
+ggsave("causa3.png", path = "C:\\Users\\jcge9\\Desktop\\cuarto_carrera\\Tortugas_La_Tahonilla\\graficas",
+        width=7, height=3.5)
 
 ### K-W 1
 
@@ -393,7 +393,7 @@ plot_causas2 <- plot_grid(gfc_hist2,gfc_kw,
 plot_causas2
 
  ggsave("causas2.png",
-        path = "C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tahonilla\\graficas",
+        path = "C:\\Users\\jcge9\\Desktop\\cuarto_carrera\\Tortugas_La_Tahonilla\\graficas",
         width=7, height=3.5)
 
 
@@ -606,12 +606,11 @@ plot_grid(muerte_hist, muerte_cajas,
           labels = c("A","B",
                      "C","D"))
 
-ggsave("muerte.png", path = "C:\\Users\\jcge9\\Desktop\\TFG\\Tortugas_La_Tahonilla\\graficas",
+ggsave("muerte.png", path = "C:\\Users\\jcge9\\Desktop\\cuarto_carrera\\Tortugas_La_Tahonilla\\graficas",
        width=7,
        height=5)
 
-?ggsave
-colors()
+
 #-------------------------------------------------------------------------#
 # Tabla de datos de estadísticos descriptivos... a ver como lo hacemos... #
 #-------------------------------------------------------------------------#
