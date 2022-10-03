@@ -3,7 +3,7 @@
 
 ## Trabajo de Fin de Grado de *Juan Carlos García Estupiñán*. Mis tutores fueron Carlos Pérez González y José Alberto Delgado Bello.
 
-### Hola, este es mi TFG, en el he realizado un análisis estadístico de una base de datos proporcionada por el Centro de Recuperación de Fauna Silvestre, la Tahonilla.
+### Hola, este es mi TFG, en el he realizado un análisis estadístico de una base de datos proporcionada por el *Centro de Recuperación de Fauna Silvestre, la Tahonilla*.
 
 Mi intención con este directorio es compartir tanto los resultados obtenidos en este trabajo, como los scripts que he programado para ello. Los datos obviamente, como no son míos, sino de la Tahonilla (y en principio no son públicos), he subido una Demo para que tengan una idea general. Si quieren los datos para reproducir el experimento, pueden contactar con la Tahonilla.
 
@@ -14,8 +14,6 @@ Los resultados y el Abstract los subiré en otro Markdown en inglés, pero aquí
 * ***script:*** ```1Lib_Dfs.R```
 
 ## Variables Utilizadas para el análisis / Used Variables for the analysis.
-
-### Variables generales / General variables:
 
 * Las especies / The species (***"especie"***)
 
