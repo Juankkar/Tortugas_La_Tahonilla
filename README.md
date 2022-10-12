@@ -29,7 +29,7 @@ Los resultados y el Abstract los subiré en otro Markdown en inglés, pero aquí
 
 * Causas del recate. tortugas que llegan vivas o muertas, y las que pueden ser rehabilitadas o no / Rescue causes. Turtles that arrive alive or dead, as well as the ones that can be or not rehabilitate. (***causa/causa_orig***, ***muerte***)
 
-    * ***Script:*** **[5causas2.R](https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/scripts/5causa_muer.R)**
+    * ***Script:*** **[5causa_muer.R](https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/scripts/5causa_muer.R)**
 
 * Las observaviones de los trabajadores a las tortugas cundo llegan al centro/ The observation that the workers of the center do to the turtles on the arrival (***"observa"***)
 
