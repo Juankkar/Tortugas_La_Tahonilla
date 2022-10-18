@@ -72,7 +72,7 @@ The results showed tha there wasn't a clear pattern in terms of the year of arri
 
 <p align="center">
  
-  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/temporal1.png" alt="600" width="500" />
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/temporal1.png" alt="800" width="800" />
 
 </p>
 
