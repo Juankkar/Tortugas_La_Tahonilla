@@ -28,7 +28,7 @@ mutate(anio=year(fecha),
                            lcc>=20 & lcc<40~ "Small.Juv",
                            lcc>=40 & lcc<60~"Big.Juv",
                            lcc>=60 & lcc<80 ~"Subadult",
-                           lcc>=80 ~"Adult")) %>% print(n = Inf)
+                           lcc>=80 ~"Adult"))
 
  # biometria %>%
  #   group_by(especie,estadio) %>%
@@ -232,7 +232,7 @@ pca_biomet %>%
   )
 
 ggsave("biometria2.png", path = "C:\\Users\\jcge9\\Desktop\\cuarto_carrera\\Tortugas_La_Tahonilla\\graficas",
-       width = 7, height = 4.25)
+       width = 6, height = 5)
 
 
 ##############

@@ -56,7 +56,7 @@ The second component could mean that the ones in the positive frame of the PC2 a
 
 <p align="center">
  
-  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/biometria2.png" />
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/biometria2.png" alt="800", width="800" />
 
 </p>
 
