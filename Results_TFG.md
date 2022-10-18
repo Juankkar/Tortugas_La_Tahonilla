@@ -140,7 +140,7 @@ Even though, a study of the actual causes, showed that the boat strikes or strik
 
 <p align="center">
  
-  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/muni.png" alt="800" width="800" />
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/muni.png" alt="900" width="900" />
 
 </p>
 
@@ -207,7 +207,7 @@ We tested these differences using Wilocxon, seeing that between the first compar
 
 <p align="center">
  
-  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/muerte.png" alt="800" width="800" />
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/muerte.png" alt="900" width="900" />
 
 </p>
 
@@ -241,7 +241,7 @@ The most common value of all, including all three variables, were the fins. Also
 
 <p align="center">
  
-  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/obs1.png" alt="800" width="800" />
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/obs1.png" alt="900" width="900" />
 
 </p>
 
@@ -249,7 +249,7 @@ The most common value of all, including all three variables, were the fins. Also
 
 <p align="center">
  
-  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/obs2.png" alt="800" width="800" />
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/obs2.png" alt="900" width="900" />
 
 </p>
 
