@@ -90,7 +90,7 @@ So, to see if this differences were significants, we did a test of Kruskal-Walli
 
 <p align="center">
  
-  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/Rplot01.png" />
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/Rplot01.png" alt="800" width="800" />
 
 </p>
 
@@ -114,7 +114,7 @@ We did a time series analysis. We got a SARIMA model and the components of the m
  
  <p align="center">
   
-  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/modeloentrenamiento.png">
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/modeloentrenamiento.png" alt="800" width="800" />
 
 </p>
  
@@ -122,7 +122,7 @@ We did a time series analysis. We got a SARIMA model and the components of the m
  
 <p align="center">
  
-  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/Rplot.png" />
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/Rplot.png" alt="800" width="800" />
 
 </p>
  
@@ -140,7 +140,7 @@ Even though, a study of the actual causes, showed that the boat strikes or strik
 
 <p align="center">
  
-  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/muni.png" />
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/muni.png" alt="800" width="800" />
 
 </p>
 
@@ -164,7 +164,7 @@ But, for the years 2013 to 2021, the causes were *p* > 0.05 for all the groups.
 
 <p align="center">
  
-  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/causas_evolucion.png" />
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/causas_evolucion.png" alt="800" width="800" />
 
 </p>
 
@@ -172,7 +172,7 @@ But, for the years 2013 to 2021, the causes were *p* > 0.05 for all the groups.
 
 <p align="center">
  
-  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/causas2.png" />
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/causas2.png" alt="800" width="800" />
 
 </p>
 
@@ -181,7 +181,7 @@ But, for the years 2013 to 2021, the causes were *p* > 0.05 for all the groups.
 
 <p align="center">
  
-  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/causa3.png" />
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/causa3.png" alt="800" width="800" />
 
 </p>
 
@@ -193,7 +193,7 @@ Then, because of these results, we did a table, which showed a possible explaina
 
 <p align="center">
  
-  <img width="500" height="600" src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/tabla%20causas.png" />
+  <img width="500" height="600" src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/tabla%20causas.png" alt="800" width="800" />
 
 </p>
 
@@ -207,7 +207,7 @@ We tested these differences using Wilocxon, seeing that between the first compar
 
 <p align="center">
  
-  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/muerte.png" />
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/muerte.png" alt="800" width="800" />
 
 </p>
 
@@ -241,7 +241,7 @@ The most common value of all, including all three variables, were the fins. Also
 
 <p align="center">
  
-  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/obs1.png" />
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/obs1.png" alt="800" width="800" />
 
 </p>
 
@@ -249,7 +249,7 @@ The most common value of all, including all three variables, were the fins. Also
 
 <p align="center">
  
-  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/obs2.png" />
+  <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/obs2.png" alt="800" width="800" />
 
 </p>
 
