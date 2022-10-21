@@ -232,7 +232,7 @@ selec <-function(ord,lista_tokens,var) {
 * Affections.
 * Parts of the body affected.
 
-<p align='justify'>The most common value of all, including all three variables, were the fins. Also, we create heatmaps to compare the variables. What we saw was that there was a **triple coincidence**: The fins were correlated with the affection of necrosis, as well with the injury of amputations (logically). But also, what was really interesting, it was that the necrosis were also correlated with the amputations.</p>
+<p align='justify'>The most common value of all, including all three variables, were the fins. Also, we create heatmaps to compare the variables. What we saw was that there was a <strong>triple coincidence</strong>: The fins were correlated with the affection of necrosis, as well with the injury of amputations (logically). But also, what was really interesting, it was that the necrosis were also correlated with the amputations.</p>
 
 ---
 
