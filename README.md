@@ -17,7 +17,7 @@ xdLos resultados y el Abstract los subiré en otro Markdown en inglés, pero aqu
 
 * <p align='justify'>Las especies / The species (<strong><em>"especie"</strong></em>)</p>
 
-    * <p align='justify'><strong><em>Script:</strong><em> <strong><a href="scripts/2Tor_de_data.R">2Tor_de_data.R</a></strong>. Aquí también se encuentra el modelo de series temporales, un SARIMA / In here, there is also a time series model, a SARIMA.</p>
+    * <p align='justify'><strong><em>Script:</strong></em> <strong><a href="scripts/2Tor_de_data.R">2Tor_de_data.R</a></strong>. Aquí también se encuentra el modelo de series temporales, un SARIMA / In here, there is also a time series model, a SARIMA.</p>
 
 * <p align='justify'>Variables de tiempo: año, mes, estación / Time variables: year, month and season (<strong><em>"anio"</strong></em>, <strong><em>"mes"</strong></em>, <strong><em>"estacion"<strong><em>).</p>
 
