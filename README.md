@@ -9,17 +9,17 @@
 
 xdLos resultados y el Abstract los subiré en otro Markdown en inglés, pero aquí explicaré las principales variables a estudiar, y los scripts utilizados.</p>
 
-## xdLibrerías y puesta a punto de la base de datos / Libraries and making the dataset ready to usexd
+## <p align='justify'>Librerías y puesta a punto de la base de datos / Libraries and making the dataset ready to usexd</p>
 
 * <p align='justify'><strong><em>script:</strong></em> <strong><a href="scripts/1Lib_DFs.R">1Lib_Dfs.R</a></strong>
 
-## Variables Utilizadas para el análisis / Used Variables for the analysis.</p>
+## <p align='justify'>Variables Utilizadas para el análisis / Used Variables for the analysis.</p>
 
 * <p align='justify'>Las especies / The species (<strong><em>"especie"</strong></em>)</p>
 
     * <p align='justify'><strong><em>Script:</strong></em> <strong><a href="scripts/2Tor_de_data.R">2Tor_de_data.R</a></strong>. Aquí también se encuentra el modelo de series temporales, un SARIMA / In here, there is also a time series model, a SARIMA.</p>
 
-* <p align='justify'>Variables de tiempo: año, mes, estación / Time variables: year, month and season (<strong><em>"anio"</strong></em>, <strong><em>"mes"</strong></em>, <strong><em>"estacion"<strong><em>).</p>
+* <p align='justify'>Variables de tiempo: año, mes, estación / Time variables: year, month and season (<strong><em>"anio"</strong></em>, <strong><em>"mes"</strong></em>, <strong><em>"estacion"</strong></em>).</p>
 
     * <p align='justify'><strong><em>Script:</strong></em> <strong><a href="scripts/3ani_est_mes.R">3tor_ani_est.R</a></strong></p>
 
@@ -31,7 +31,7 @@ xdLos resultados y el Abstract los subiré en otro Markdown en inglés, pero aqu
 
     * <p align='justify'><strong><em>Script:</strong></em> <strong><a href="scripts/5causa_muer.R">5causa_muer.R</a></strong>
 
-* xdLas observaviones de los trabajadores a las tortugas cundo llegan al centro/ The observation that the workers of the center do to the turtles on the arrival (<strong><em>"observa"</strong></em>)</p>
+* <p align='justify'>Las observaviones de los trabajadores a las tortugas cundo llegan al centro/ The observation that the workers of the center do to the turtles on the arrival (<strong><em>"observa"</strong></em>)</p>
 
     * <p align='justify'><strong><em>script:</strong></em><strong><a href="scripts/6obs2.R">6obs2.R</a></strong></p>
 
