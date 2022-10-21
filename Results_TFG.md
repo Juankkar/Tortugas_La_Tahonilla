@@ -1,16 +1,16 @@
-# <div style='text-align: justify'>Results of "Statistical analysis of sea turtles strandings in Tenerife, Canary Islands". (Hightlights)</d>
+# <p align='justify'>Results of "Statistical analysis of sea turtles strandings in Tenerife, Canary Islands". (Hightlights)</p>
 
-### <div style='text-align: justify'>Note: maybe it is not finished yet, do not judge me harshly please!!!</d> 
+### <p align='justify'>Note: maybe it is not finished yet, do not judge me harshly please!!!</p> 
 
 ## Abstract:
 
 <p align='justify'>The Chelonian order is formed by two families and seven species of sea turtles, all of which are on the IUCN Red List and Appendix I of CITES. Because of that, it is important to study their strandings in the Canary Islands. The most representative was *Caretta caretta*, arriving mainly juveniles, especially in summer, followed by fall and spring equally and winter where less. When a forecast was made for 2022, it was seen that this pattern could occur in a similar way. Adeje was the municipality with the highest number of turtles arriving, mostly from Puerto Colòn, a tourist area. In fact, the most common causes were of anthropogenic origin, especially those related to fishing gear, but have been decreasing until now, with a slight increase of the natural ones and a large one of the undetermined causes. Most of the turtles are alive when they have been rescued, being rehabilitated most of them, where the injuries on the fins are the main affection, suffering necrosis and amputations.</p>
 
-<div style='text-align: justify'><strong>Keywords</strong>: loggerhead, <em>Caretta caretta</em>, Canary Islands, strandings, sea turtles.</d>
+<p align='justify'><strong>Keywords</strong>: loggerhead, <em>Caretta caretta</em>, Canary Islands, strandings, sea turtles.</p>
 
-## **1) Species and biometric study of the turtles.**
+## **<p align='justify'>1) Species and biometric study of the turtles.</p>**
 
-### <div style='text-align: justify'>In terms of numbers, <em>Caretta caretta</em> was the most common out of all of the turtles, representing 96.92% of the individuals. In total, there was five species, and over all, 1913 turtles identified.</d>
+### <p align='justify'>In terms of numbers, <em>Caretta caretta</em> was the most common out of all of the turtles, representing 96.92% of the individuals. In total, there was five species, and over all, 1913 turtles identified.</p>
 
 * *Caretta caretta* (loggerhead turtle): 1854
 * *Chelonya mydas* (green turtle) : 51
@@ -18,11 +18,11 @@
 * *Eretmochelys imbricata* (hawksbill turtle): 1
 * *Lepidochelys olivacea* (Olive ridley turtle): 1
 
-<div style='text-align: justify'>We did a biometric study of the turtles. First, We used the Curved of the caparace longitude (what is known by "CCL"). Some authors (<em>Liria-Lozoa et al., 2018</em>) have used this parameter to determined the state of their lifecycle (more likely for the loggerheads and green turtles).</d>
+<p align='justify'>We did a biometric study of the turtles. First, We used the Curved of the caparace longitude (what is known by "CCL"). Some authors (<em>Liria-Lozoa et al., 2018</em>) have used this parameter to determined the state of their lifecycle (more likely for the loggerheads and green turtles).</p>
 
-<div style='text-align: justify'>What we saw was that, approximatly 90% of the loggerhead turtles were juveniles. In case of the green turtle; the sample was too small in order to take some good conclusions.</d>
+<p align='justify'>What we saw was that, approximatly 90% of the loggerhead turtles were juveniles. In case of the green turtle; the sample was too small in order to take some good conclusions.</p>
 
-<div style='text-align: justify'>The results of the loggerhead has sense because the Canary Islands is a place for the juveniles to feed (Investigadores de la ULL colaboran con pescadores y cofradías para proteger a las tortugas boba y verde, 2022; Liria-Lozoa <em>et al.</em>, 2021; Mansfield & Putman, 2013), before they continue with migration patterns to reproduction routes (like Cabo Verde).</d>
+<p align='justify'>The results of the loggerhead has sense because the Canary Islands is a place for the juveniles to feed (Investigadores de la ULL colaboran con pescadores y cofradías para proteger a las tortugas boba y verde, 2022; Liria-Lozoa <em>et al.</em>, 2021; Mansfield & Putman, 2013), before they continue with migration patterns to reproduction routes (like Cabo Verde).</p>
 
 ---
 
@@ -32,22 +32,22 @@
 
 </p>
 
-<div style='text-align: justify'><strong><em>Figure 3.</strong></em> <em>Estimation of the lifecycle using the CCL for the loggerhead and green turtle</em>.</d>
+<p align='justify'><strong><em>Figure 3.</strong></em> <em>Estimation of the lifecycle using the CCL for the loggerhead and green turtle</em>.</p>
 
 ---
 
-<div style='text-align: justify'>After that, we did a Principal Component Analisis (PCA), in order to try to extract the maximun information of all the biometric variables. We chose the first 2 components because, together with each other, they explained ~98% of the variance, where the PC1 explained ~94% and the PC2 ~4%.</d>
+<p align='justify'>After that, we did a Principal Component Analisis (PCA), in order to try to extract the maximun information of all the biometric variables. We chose the first 2 components because, together with each other, they explained ~98% of the variance, where the PC1 explained ~94% and the PC2 ~4%.</p>
 
-<div style='text-align: justify'>We used the Pearson Correlation Test, to compare the PC, with the biometrics variables. All of them  were highly correlated and negatively with the first component. Meanwhile, the second component, the only variable with a respectful (but not high at all) level of negative correlation, was the weight. The size of the carapace for the second on the other hand were poorly positive correlated.
+<p align='justify'>We used the Pearson Correlation Test, to compare the PC, with the biometrics variables. All of them  were highly correlated and negatively with the first component. Meanwhile, the second component, the only variable with a respectful (but not high at all) level of negative correlation, was the weight. The size of the carapace for the second on the other hand were poorly positive correlated.</p>
 
-<div style='text-align: justify'>This could mean that the PC1 would explain that the turtles that are growing in carapace size and also weight, are more in the left of the graph of the <strong>Figure 4</strong>. In this case when we put the results of the lifecycle, groups were formed and ordered coherently:
+<p align='justify'>This could mean that the PC1 would explain that the turtles that are growing in carapace size and also weight, are more in the left of the graph of the <strong>Figure 4</strong>. In this case when we put the results of the lifecycle, groups were formed and ordered coherently:</p>
 
 1. Hatchlings 
 2. Juveniles (small and bigs) 
 3. Subadults and 
 4. Adults. 
 
-<div style='text-align: justify'>The second component could mean that the ones in the positive frame of the PC2 axis, the juveniles turtles (small and big sizes), are growing in terms of carapace size. On the other hand, the ones in the negative, the hatchlings, subadults and adults seems to being growing in weight in this state.
+<p align='justify'>The second component could mean that the ones in the positive frame of the PC2 axis, the juveniles turtles (small and big sizes), are growing in terms of carapace size. On the other hand, the ones in the negative, the hatchlings, subadults and adults seems to being growing in weight in this state.</p>
 
 ---
 
