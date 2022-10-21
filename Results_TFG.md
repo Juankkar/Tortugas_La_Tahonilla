@@ -57,7 +57,7 @@
 
 </p>
 
-***Figure 4.*** *PCA of the biometric variables (loggerhead turtle). Different groups depending on the living cycle were formed*
+<p align='justify'><strong><em>Figure 4.</strong> PCA of the biometric variables (loggerhead turtle). Different groups depending on the living cycle were formed</em>
 
 ---
 
@@ -77,7 +77,7 @@ The results showed tha there wasn't a clear pattern in terms of the year of arri
 
 ---
 
-<div style='text-align: justify'>So, to see if this differences were significants, we did a test of Kruskal-Wallis, the data distribution wasn't normal, as with the rest of the studies. and because <em>p</em> < 0.05, we did the Dunnet Test as a Post-Hoc (with the Bonferroni correction). 
+<p align='justify'>So, to see if this differences were significants, we did a test of Kruskal-Wallis, the data distribution wasn't normal, as with the rest of the studies. and because <em>p</em> < 0.05, we did the Dunnet Test as a Post-Hoc (with the Bonferroni correction).</p>
 
 * The summer season was *p* < 0.05 with the rest.
 * In case of Spring and fall *p* > 0.05. 
@@ -91,11 +91,11 @@ The results showed tha there wasn't a clear pattern in terms of the year of arri
 
 </p>
 
-<div style='text-align: justify'><strong><em>Figure 6.</strong> <strong>A</strong> Histograms that shows the data distribution, <strong>B</strong> Boxplot for comparing the seasons</em>
+<p align='justify'><strong><em>Figure 6.</strong> <strong>A</strong> Histograms that shows the data distribution, <strong>B</strong> Boxplot for comparing the seasons</em></p>
 
 ---
 
-<div style='text-align: justify'>We did a time series analysis. We got a SARIMA model and the components of the model were:
+<p align='justify'>We did a time series analysis. We got a SARIMA model and the components of the model were:</p>
 
 ( p, d, q ) x ( P, D, Q )<sub>S</sub>
 
@@ -103,9 +103,9 @@ The results showed tha there wasn't a clear pattern in terms of the year of arri
 * Seasonal components: ( P = 1, D = 0, Q = 1 )
 * seasonal period: S = 12
  
- <div style='text-align: justify'>In order to guarantee that the model was optimal. We first made sure that the data was stational by the Dickey-Fuller test (<em>p</em> < 0.05), we also did a Ljung-Box test, to corroborate the existence of white noise (<em>p</em> > 0.05). And finally before the forecast for 2022, we did a training model one for 2021, to make sure that it didn't fail on the reality and had good results.
+ <p align='justify'>In order to guarantee that the model was optimal. We first made sure that the data was stational by the Dickey-Fuller test (<em>p</em> < 0.05), we also did a Ljung-Box test, to corroborate the existence of white noise (<em>p</em> > 0.05). And finally before the forecast for 2022, we did a training model one for 2021, to make sure that it didn't fail on the reality and had good results.</p>
 
- <div style='text-align: justify'>In the end, it would appear that for the 2022 year the pattern would seem similar to the annual pattern. There is going to be a increase number of turtles since beginning of the year, until a possible peak in Summer. After that there is going to be a negative tendency since fall start to the last month of the study (December).
+ <p align='justify'>In the end, it would appear that for the 2022 year the pattern would seem similar to the annual pattern. There is going to be a increase number of turtles since beginning of the year, until a possible peak in Summer. After that there is going to be a negative tendency since fall start to the last month of the study (December).</p>
 
  ---
  
@@ -115,7 +115,7 @@ The results showed tha there wasn't a clear pattern in terms of the year of arri
 
 </p>
  
-<div style='text-align: justify'><strong><em>Figure 8.</strong> Training Model to see how it adjusted to the data in 2021 in red, in blue other whise, is the forecast for this year and the coluds are the confidence intervals of the model.</em>
+<p align='justify'><strong><em>Figure 8.</strong> Training Model to see how it adjusted to the data in 2021 in red, in blue other whise, is the forecast for this year and the coluds are the confidence intervals of the model.</em></p>
  
 <p align="center">
  
@@ -123,15 +123,15 @@ The results showed tha there wasn't a clear pattern in terms of the year of arri
 
 </p>
  
-<div style='text-align: justify'><strong><em>Figura 9.</strong> Forecast for the year 2022.</em> 
+<p align='justify'><strong><em>Figura 9.</strong> Forecast for the year 2022.</em></p>
  
  ---
 
  ## **<div style='text-align: justify'>3) Municipality and places of rescue.**
 
-<div style='text-align: justify'>The municipality where a significant percentage of turtles arrive is Adeje, and the place in specific inside here is Puerto Colòn, a place with port and recreational sea attractions as aquatic bikes.
+<p align='justify'>The municipality where a significant percentage of turtles arrive is Adeje, and the place in specific inside here is Puerto Colòn, a place with port and recreational sea attractions as aquatic bikes.</p>
 
-<div style='text-align: justify'>Even though, a study of the actual causes, showed that the boat strikes or strikes in general where scarce. The fishing gear causes were the main one. It is true, that in some of the years (specially in the last ones), there are a lot of non unclassified, wich could be masking the real results.
+<p align='justify'>Even though, a study of the actual causes, showed that the boat strikes or strikes in general where scarce. The fishing gear causes were the main one. It is true, that in some of the years (specially in the last ones), there are a lot of non unclassified, wich could be masking the real results.</p>
 
 ---
 
@@ -141,21 +141,21 @@ The results showed tha there wasn't a clear pattern in terms of the year of arri
 
 </p>
 
-<div style='text-align: justify'><strong><em>Figure 10 and 11</strong> A Municipalities percentages of sea turtles stranding B Places of the strandings inside Puerto Colòn, the municipality with the greatest numbers. C Bar char of the recent causes in this place.</em> 
+<p align='justify'><strong><em>Figure 10 and 11</strong> A Municipalities percentages of sea turtles stranding B Places of the strandings inside Puerto Colòn, the municipality with the greatest numbers. C Bar char of the recent causes in this place.</em></p>
 
 ---
 
-## <div style='text-align: justify'>5) General causes of the strandings
+## <p align='justify'>5) General causes of the strandings</p>
 
-<div style='text-align: justify'>We divided the causes in three groups:
+<p align='justify'>We divided the causes in three groups:</p>
 
 * Anthropogenic causes.
 * Natural causes.
 * Unclassified.
 
-<div style='text-align: justify'>The years from 2001 to 2012 (2000 was excluded because more than 80% of the causes were unclassified), the causes were significant with each other <em>p</em> < 0.05, being the significance between the causes made by humans and the other two (between the naturals and unclassified, <em>p</em> > 0.05). 
+<p align='justify'>The years from 2001 to 2012 (2000 was excluded because more than 80% of the causes were unclassified), the causes were significant with each other <em>p</em> < 0.05, being the significance between the causes made by humans and the other two (between the naturals and unclassified, <em>p</em> > 0.05).</p> 
 
-But, for the years 2013 to 2021, the causes were *p* > 0.05 for all the groups. 
+<p align='justify'>But, for the years 2013 to 2021, the causes were *p* > 0.05 for all the groups.</p>
 
 ---
 
@@ -165,7 +165,7 @@ But, for the years 2013 to 2021, the causes were *p* > 0.05 for all the groups.
 
 </p>
 
-<div style='text-align: justify'><strong><em>Figure 12.</strong> Evolution of the causes 2001-2021.</em>
+<p align='justify'><strong><em>Figure 12.</strong> Evolution of the causes 2001-2021.</em></p>
 
 <p align="center">
  
@@ -173,7 +173,7 @@ But, for the years 2013 to 2021, the causes were *p* > 0.05 for all the groups.
 
 </p>
 
-<div style='text-align: justify'><strong><em>Figure 13 A</strong>  Distribution of the data and <strong>B</strong>  boxplot for comparing the causes for the years 2001-12</em>
+<p align='justify'><strong><em>Figure 13 A</strong>  Distribution of the data and <strong>B</strong>  boxplot for comparing the causes for the years 2001-12</em></p>
 
 
 <p align="center">
@@ -182,11 +182,11 @@ But, for the years 2013 to 2021, the causes were *p* > 0.05 for all the groups.
 
 </p>
 
-<div style='text-align: justify'><strong><em>Figure 14. A</strong> Distribution of the data and <strong>B</strong> boxplot for comparing the causes for the years 2013-21</em>
+<p align='justify'><strong><em>Figure 14. A</strong> Distribution of the data and <strong>B</strong> boxplot for comparing the causes for the years 2013-21</em></p>
 
 ---
 
-<div style='text-align: justify'>Then, because of these results, we did a table, which showed a possible explaination. It seems that is because the decrease of the anthropogeneic causes, in specific, a reduction of fishing gear (the principle cause of stranding). Also, the unclassified causes have been increasing, specially this last years, which could be affecting this study. In other words, we probably are not able to see the reality of the situation because the number of this last causes are so high.
+<p align='justify'>Then, because of these results, we did a table, which showed a possible explaination. It seems that is because the decrease of the anthropogeneic causes, in specific, a reduction of fishing gear (the principle cause of stranding). Also, the unclassified causes have been increasing, specially this last years, which could be affecting this study. In other words, we probably are not able to see the reality of the situation because the number of this last causes are so high.</p>
 
 <p align="center">
  
@@ -194,11 +194,11 @@ But, for the years 2013 to 2021, the causes were *p* > 0.05 for all the groups.
 
 </p>
 
-## <div style='text-align: justify'>6) Turtles that arrive alive, dead and can be rehabilitated or not.
+## <p align='justify'>6) Turtles that arrive alive, dead and can be rehabilitated or not.</p>
 
-<div style='text-align: justify'>In these terms, our results showed that the majority of the turtles arrive alive to La Tahonilla. Also, their prognostic is really favorable, being most of them rehabilitated.
+<p align='justify'>In these terms, our results showed that the majority of the turtles arrive alive to La Tahonilla. Also, their prognostic is really favorable, being most of them rehabilitated.</p>
 
-<div style='text-align: justify'>We tested these differences using Wilocxon, seeing that between the first comparison <em>p</em> < 0.05. On the other hand, in case of the rehabilitated, the differences were <em>p</em> < 0.05 as well.
+<p align='justify'>We tested these differences using Wilocxon, seeing that between the first comparison <em>p</em> < 0.05. On the other hand, in case of the rehabilitated, the differences were <em>p</em> < 0.05 as well.</p>
 
 ---
 
@@ -208,13 +208,13 @@ But, for the years 2013 to 2021, the causes were *p* > 0.05 for all the groups.
 
 </p>
 
-<div style='text-align: justify'><strong><em>Figure 15. A, C</strong> Distribution of the data and <strong>B, D</strong> boxplot for comparing the groups.</em>
+<p align='justify'><strong><em>Figure 15. A, C</strong> Distribution of the data and <strong>B, D</strong> boxplot for comparing the groups.</em></p>
 
 ---
 
-## <div style='text-align: justify'>7) Observation that the La Tahonilla workers made to the turtles when they arrive to the center.
+## <p align='justify'>7) Observation that the La Tahonilla workers made to the turtles when they arrive to the center.</p>
 
-Finally, we will talk about the observations that the workers annotated when the turtles arrive to the center. To do that, we used this algorithm to extract the information in the datasets (credit to Carlos).
+<p align='justify'>Finally, we will talk about the observations that the workers annotated when the turtles arrive to the center. To do that, we used this algorithm to extract the information in the datasets (credit to Carlos).</p>
 
 ```
 
@@ -226,13 +226,13 @@ selec <-function(ord,lista_tokens,var) {
 
 ```
 
-Using this code we filtered the values of interest, being able to classified some of the turles for three sepcific variables (even though, a lot of them weren't able to clasiffy with this method):
+<p align='justify'>Using this code we filtered the values of interest, being able to classified some of the turles for three sepcific variables (even though, a lot of them weren't able to clasiffy with this method):</p>
 
 * Injuries.
 * Affections.
 * Parts of the body affected.
 
-The most common value of all, including all three variables, were the fins. Also, we create heatmaps to compare the variables. What we saw was that there was a **triple coincidence**: The fins were correlated with the affection of necrosis, as well with the injury of amputations (logically). But also, what was really interesting, it was that the necrosis were also correlated with the amputations.
+<p align='justify'>The most common value of all, including all three variables, were the fins. Also, we create heatmaps to compare the variables. What we saw was that there was a **triple coincidence**: The fins were correlated with the affection of necrosis, as well with the injury of amputations (logically). But also, what was really interesting, it was that the necrosis were also correlated with the amputations.</p>
 
 ---
 
@@ -242,7 +242,7 @@ The most common value of all, including all three variables, were the fins. Also
 
 </p>
 
-***Figure 16.*** *List of the values of "Observations": **A** part of the body, **B** the state pf the turtles, **C** injuries.*
+<p align='justify'><storng><em>Figure 16.</strong> List of the values of "Observations": <strong>A</strong> part of the body, <strong>B</strong> the state pf the turtles, <strong>C</strong> injuries.</em></p>
 
 <p align="center">
  
@@ -250,12 +250,12 @@ The most common value of all, including all three variables, were the fins. Also
 
 </p>
 
-***Figure 17.*** *Heatmaps: **A** relation between the state and the part of the body affected, **B** between the injuries and the part of the body, **C** the injuries and the state.*
+<p align='justify'><storng><em>Figure 17.</strong> Heatmaps: **A** relation between the state and the part of the body affected, <strong>B</strong> between the injuries and the part of the body, **C** the injuries and the state.</em></p>
 
 ---
 
 
-## <div style='text-align: justify'>REFERENCES (exclusively, the one needed for this highlights)
+## <p align='justify'><storng><em>REFERENCES (exclusively, the one needed for this highlights)</p>
 
 [1] Investigadores de la ULL colaboran con pescadores y cofradías para proteger a las tortugas boba y verde. (16 de febrero 2022). ULL Noticias. (https://www.ull.es/portal/noticias/2022/investigadores-de-la-ull-ensenan-a-pescadores-y-cofradias-como-proteger-a-las-tortugas-boba-y-verde/)
 
