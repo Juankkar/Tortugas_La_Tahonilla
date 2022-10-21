@@ -1,11 +1,11 @@
-# Análisis estadístico de tortugas marinas varadas en Tenerife, Islas Canarias.
+# <div style='text-align: justify'>Análisis estadístico de tortugas marinas varadas en Tenerife, Islas Canarias.
 # Statistical analysis of sea turtles stranding in Tenerife, Canary Islands.
 
-## Trabajo de Fin de Grado de *Juan Carlos García Estupiñán*. Mis tutores fueron Carlos Pérez González y José Alberto Delgado Bello.
+## <div style='text-align: justify'>Trabajo de Fin de Grado de *Juan Carlos García Estupiñán*. Mis tutores fueron Carlos Pérez González y José Alberto Delgado Bello.
 
-### Hola, este es mi TFG, en el he realizado un análisis estadístico de una base de datos proporcionada por el *Centro de Recuperación de Fauna Silvestre, la Tahonilla*.
+### <div style='text-align: justify'>Hola, este es mi TFG, en el he realizado un análisis estadístico de una base de datos proporcionada por el *Centro de Recuperación de Fauna Silvestre, la Tahonilla*.
 
-Mi intención con este directorio es compartir tanto los resultados obtenidos en este trabajo, como los scripts que he programado para ello. Los datos obviamente, como no son míos, sino de la Tahonilla (y en principio no son públicos), he subido una Demo para que tengan una idea general. Si quieren los datos para reproducir el experimento, pueden contactar con la Tahonilla.
+<div style='text-align: justify'>Mi intención con este directorio es compartir tanto los resultados obtenidos en este trabajo, como los scripts que he programado para ello. Los datos obviamente, como no son míos, sino de la Tahonilla (y en principio no son públicos), he subido una Demo para que tengan una idea general. Si quieren los datos para reproducir el experimento, pueden contactar con la Tahonilla.
 
 Los resultados y el Abstract los subiré en otro Markdown en inglés, pero aquí explicaré las principales variables a estudiar, y los scripts utilizados.
 
