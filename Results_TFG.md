@@ -35,6 +35,7 @@ The results of the loggerhead has sense because the Canary Islands is a place fo
  
   <img src="graficas/biometria1.png" />
 
+</p>
 
 
 <strong><em>Figure 3.</strong></em> <em>Estimation of the lifecycle using the CCL for the loggerhead and green turtle</em>.
@@ -58,7 +59,9 @@ The second component could mean that the ones in the positive frame of the PC2 a
 
 <p align="center">
  
-  <img src="graficas/biometria2.png" alt="650" width="700" />
+  <img src="graficas/biometria2.png" alt="650" width="500" />
+
+</p>
 
 
 
@@ -94,6 +97,7 @@ So, to see if this differences were significants, we did a test of Kruskal-Walli
  
   <img src="graficas/Rplot01.png" alt="800" width="800" />
 
+</p>
 
 
 <strong><em>Figure 6.</strong> <strong>A</strong> Histograms that shows the data distribution, <strong>B</strong> Boxplot for comparing the seasons</em>
@@ -118,7 +122,7 @@ We did a time series analysis. We got a SARIMA model and the components of the m
   
   <img src="graficas/modeloentrenamiento.png" alt="750" width="750" />
 
-
+</p>
  
 <strong><em>Figure 8.</strong> Training Model to see how it adjusted to the data in 2021 in red, in blue other whise, is the forecast for this year and the coluds are the confidence intervals of the model.</em>
  
@@ -132,7 +136,7 @@ We did a time series analysis. We got a SARIMA model and the components of the m
  
  ---
 
- ## **<div style='text-align: justify'>3) Municipality and places of rescue.**
+ ## **3) Municipality and places of rescue.**
 
 The municipality where a significant percentage of turtles arrive is Adeje, and the place in specific inside here is Puerto Colòn, a place with port and recreational sea attractions as aquatic bikes.
 
@@ -144,6 +148,7 @@ Even though, a study of the actual causes, showed that the boat strikes or strik
  
   <img src="graficas/muni.png" alt="900" width="900" />
 
+</p>
 
 
 <strong><em>Figure 10 and 11</strong> A Municipalities percentages of sea turtles stranding B Places of the strandings inside Puerto Colòn, the municipality with the greatest numbers. C Bar char of the recent causes in this place.</em>
@@ -168,7 +173,7 @@ But, for the years 2013 to 2021, the causes were *p* > 0.05 for all the groups.
  
   <img src="graficas/causas_evolucion.png" alt="800" width="800" />
 
-
+</p>
 
 <strong><em>Figure 12.</strong> Evolution of the causes 2001-2021.</em>
 
@@ -176,7 +181,7 @@ But, for the years 2013 to 2021, the causes were *p* > 0.05 for all the groups.
  
   <img src="graficas/causas2.png" alt="800" width="800" />
 
-
+</p>
 
 <strong><em>Figure 13 A</strong>  Distribution of the data and <strong>B</strong>  boxplot for comparing the causes for the years 2001-12</em>
 
@@ -185,7 +190,7 @@ But, for the years 2013 to 2021, the causes were *p* > 0.05 for all the groups.
  
   <img src="graficas/causa3.png" alt="800" width="800" />
 
-
+</p>
 
 <strong><em>Figure 14. A</strong> Distribution of the data and <strong>B</strong> boxplot for comparing the causes for the years 2013-21</em>
 
@@ -197,7 +202,7 @@ Then, because of these results, we did a table, which showed a possible explaina
  
   <img width="500" height="600" src="graficas/tabla%20causas.png" alt="800" width="800" />
 
-
+</p>
 
 ## 6) Turtles that arrive alive, dead and can be rehabilitated or not.
 
@@ -211,7 +216,7 @@ We tested these differences using Wilocxon, seeing that between the first compar
  
   <img src="graficas/muerte.png" alt="850" width="850" />
 
-
+</p>
 
 <strong><em>Figure 15. A, C</strong> Distribution of the data and <strong>B, D</strong> boxplot for comparing the groups.</em>
 
@@ -245,7 +250,7 @@ The most common value of all, including all three variables, were the fins. Also
  
   <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/obs1.png" alt="900" width="900" />
 
-
+</p>
 
 <storng><em>Figure 16.</strong> List of the values of "Observations": <strong>A</strong> part of the body, <strong>B</strong> the state pf the turtles, <strong>C</strong> injuries.</em>
 
@@ -253,7 +258,7 @@ The most common value of all, including all three variables, were the fins. Also
  
   <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/obs2.png" alt="900" width="900" />
 
-
+</p>
 
 <storng><em>Figure 17.</strong> Heatmaps: **A** relation between the state and the part of the body affected, <strong>B</strong> between the injuries and the part of the body, **C** the injuries and the state.</em>
 
