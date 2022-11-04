@@ -212,7 +212,7 @@ pca_biomet %>%
        y=glue("PC2 ({var_pc2}% explained variance)"),
        fill=NULL,
        color=NULL,
-       title = glue("PCA Biometric variables,<br><span style='color: red'>acumulative varianze explained: {var_pc1+var_pc2}%</span>")) +
+       title = glue("PCA Biometric variables,<br><span style='color: red'>cumulative variance explained: {var_pc1+var_pc2}%</span>")) +
   stat_ellipse(geom = "polygon", alpha=.25) +
   geom_vline(xintercept = 0, linetype = "dashed") +
   geom_hline(yintercept = 0, linetype = "dashed") +
