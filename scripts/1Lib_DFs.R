@@ -69,7 +69,7 @@ df_tortugas_marinas <- df_tortugas2 %>%
                         "Lepidochelys olivacea")) %>% 
   select(ficha,especie, nombre.especie, fecha, anio, mes, 
          estacion, muni,lugar, lugar_orig, causa,causa_orig, muerte,
-         observa, lesion,cuerpo,estado)#;view(df_tortugas_marinas)
+         observa, lesion,cuerpo,estado);view(df_tortugas_marinas) 
 
 # df_tm_2021 <- tortugas_2021 <- read_excel("C:/Users/jcge9/Desktop/TFG/TFG_R/tortugas_2021.xlsx")
 
