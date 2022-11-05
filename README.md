@@ -37,6 +37,6 @@ Los resultados y el Abstract los subiré en otro Markdown en inglés, pero aquí
 
 * Biometrías de las tortugas rescatadas: longitud recta del caparazón (<strong><em>"LRC"</strong></em>), Longitud Curva del Caparazón (<strong><em>"LCC"</strong></em>), anchura recta del caparazón (<strong><em>"ARC"</strong></em>), anchura curva del caparazón (<strong><em>"ACC"</strong></em>) y peso (<strong><em>"Peso"</strong></em>) / Biometry of the turtles straight carapace length (<strong><em>"SRC"</strong></em>), curved carapace length (<strong><em>"CCL"</strong></em>), straight carapace width (<strong><em>"SCW"</strong></em>), curved caparace width (<strong><em>"CCW"</strong></em>) and weight (<strong><em>"Weigth"</strong></em>)
 
-    * <strong><em>Script:</strong></em> <strong><a href="scripts/7biometria.R">6obs2.R</a></strong>
+    * <strong><em>Script:</strong></em> <strong><a href="scripts/7biometria.R">7biometria.R</a></strong>
 
 
