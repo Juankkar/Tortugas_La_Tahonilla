@@ -6,7 +6,11 @@
 
 1. [Abstract](#abstract)
 2. [Species and biometric study of the turtles](#2-species-and-biometric-study-of-the-turtles)
-3. []
+3. [Temporal Study and forecast for 2022](#3-temporal-study-and-forecast-for-2022)
+4. [Municipality and places of rescue](#4-municipality-and-places-of-rescue)
+5. [General causes of the strandings](#5-general-causes-of-the-strandings)
+6. [Turtles that arrive alive, dead and can be rehabilitated or not](#6-turtles-that-arrive-alive-dead-and-can-be-rehabilitated-or-not)
+7. [Observation that the La Tahonilla workers made to the turtles when they arrive to the center.](#7-observation-that-the-la-tahonilla-workers-made-to-the-turtles-when-they-arrive-to-the-center)
 
 # 1) Abstract:
 
@@ -156,7 +160,7 @@ Even though, a study of the actual causes, showed that the boat strikes or strik
 
 ---
 
-## 5) General causes of the strandings
+# 5) General causes of the strandings
 
 We divided the causes in three groups:
 
@@ -205,7 +209,7 @@ Then, because of these results, we did a table, which showed a possible explaina
 
 </p>
 
-## 6) Turtles that arrive alive, dead and can be rehabilitated or not.
+# 6) Turtles that arrive alive, dead and can be rehabilitated or not.
 
 In these terms, our results showed that the majority of the turtles arrive alive to La Tahonilla. Also, their prognostic is really favorable, being most of them rehabilitated.
 
@@ -223,7 +227,7 @@ We tested these differences using Wilocxon, seeing that between the first compar
 
 ---
 
-## 7) Observation that the La Tahonilla workers made to the turtles when they arrive to the center.
+# 7) Observation that the La Tahonilla workers made to the turtles when they arrive to the center.
 
 Finally, we will talk about the observations that the workers annotated when the turtles arrive to the center. To do that, we used this algorithm to extract the information in the datasets (credit to Carlos).
 
@@ -248,17 +252,13 @@ The most common value of all, including all three variables, were the fins. Also
 ---
 
 <p align="center">
- 
   <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/obs1.png" alt="900" width="900" />
-
 </p>
 
 <storng><em>Figure 16.</strong> List of the values of "Observations": <strong>A</strong> part of the body, <strong>B</strong> the state pf the turtles, <strong>C</strong> injuries.</em>
 
 <p align="center">
- 
   <img src="https://github.com/Juankkar/Tortugas_La_Tahonilla/blob/main/graficas/obs2.png" alt="900" width="900" />
-
 </p>
 
 <storng><em>Figure 17.</strong> Heatmaps: **A** relation between the state and the part of the body affected, <strong>B</strong> between the injuries and the part of the body, **C** the injuries and the state.</em>
