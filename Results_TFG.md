@@ -1,19 +1,20 @@
-<style>
-body {
-text-align: justify}
-</style>
-
 # Results of "Statistical analysis of sea turtles strandings in Tenerife, Canary Islands". (Hightlights)
 
 ### Note: maybe it is not finished yet, do not judge me harshly please!!! 
 
-## Abstract:
+### Table of contents
+
+1. [Abstract](#abstract)
+2. [Species and biometric study of the turtles](#2-species-and-biometric-study-of-the-turtles)
+3. []
+
+# 1) Abstract:
 
 The Chelonian order is formed by two families and seven species of sea turtles, all of which are on the IUCN Red List and Appendix I of CITES. Because of that, it is important to study their strandings in the Canary Islands. The most representative was *Caretta caretta*, arriving mainly juveniles, especially in summer, followed by fall and spring equally and winter where less. When a forecast was made for 2022, it was seen that this pattern could occur in a similar way. Adeje was the municipality with the highest number of turtles arriving, mostly from Puerto Colòn, a tourist area. In fact, the most common causes were of anthropogenic origin, especially those related to fishing gear, but have been decreasing until now, with a slight increase of the natural ones and a large one of the undetermined causes. Most of the turtles are alive when they have been rescued, being rehabilitated most of them, where the injuries on the fins are the main affection, suffering necrosis and amputations.
 
 <strong>Keywords</strong>: loggerhead, <em>Caretta caretta</em>, Canary Islands, strandings, sea turtles.
 
-## **1) Species and biometric study of the turtles.**
+# 2) Species and biometric study of the turtles.
 
 ### In terms of numbers, <em>Caretta caretta</em> was the most common out of all of the turtles, representing 96.92% of the individuals. In total, there was five species, and over all, 1913 turtles identified.
 
@@ -69,7 +70,7 @@ The second component could mean that the ones in the positive frame of the PC2 a
 
 ---
 
-## **2) Temporal Study and forecast for 2022.**
+# 3) Temporal Study and forecast for 2022.
 
 The results showed tha there wasn't a clear pattern in terms of the year of arrival. That wasn't the case for the season. In this case, the majority of the turtles come in summer, it woudl seems that in the spring and fall season, come equally, and in winter it would be when less of them arrive.
 
@@ -136,7 +137,7 @@ We did a time series analysis. We got a SARIMA model and the components of the m
  
  ---
 
- ## **3) Municipality and places of rescue.**
+ # 4) Municipality and places of rescue.
 
 The municipality where a significant percentage of turtles arrive is Adeje, and the place in specific inside here is Puerto Colòn, a place with port and recreational sea attractions as aquatic bikes.
 
