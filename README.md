@@ -2,9 +2,9 @@
 
 ## <strong>Undergraduate thesis (Trabajo de Fin de Grado *TFG* in spanish) by *Juan Carlos García Estupiñán*. My supervisors were Carlos Pérez González and José Alberto Delgado Bello.</strong>
 
-### <em> Data provided by the Centro de Recuperación de Fauna Silvestre la Tahonilla, Tenerife island</em>.
+### <em> Data provided by the Centro de Recuperación de Fauna Silvestre la Tahonilla, in Tenerife</em>.
 
-My intention with this repository is to share the results from this thesis, and the code in the R scripts that i have develop. 
+My intention with this repository is to share the results from this thesis, and the code in the R scripts that i have developed. 
 
 ## [Code used](code): 
 
