@@ -6,7 +6,7 @@
 
 My intention with this repository is to share the results from this thesis, and the code in the R scripts that i have developed. 
 
-## [Code used](code): 
+## [Code used](scripts): 
 
 ### Libraries and making the dataset ready to used
 
