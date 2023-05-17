@@ -1,3 +1,7 @@
+##
+## Este script en concreto es basura, pero lo guardo porque todo código puede ser reutilizable
+##
+
 ################################################################################
 ############## Tabla de las causas según la evolución de los años  #############
 ################################################################################
