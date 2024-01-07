@@ -23,7 +23,6 @@ library(FSA)
 library(coin)
 
 ### Librerías para la interacción R-Excel
-library(xlsx)
 library(readxl)
 
 
@@ -31,13 +30,13 @@ library(readxl)
 #                                           Data de todas las tortugas                                         # 
 #--------------------------------------------------------------------------------------------------------------# 
 
-df_tortugas2 <-  read_excel("C:/Users/jcge9/Desktop/TFG/TFG_R/data_tortugas.xlsx",  
-                                            col_types = c("numeric", "text", "text", 
-                                                          "text", "date", "date", "text", "text", 
-                                                          "text", "text", "text", "text", 
-                                                          "text", "text", "text", "text", 
-                                                          "text", "text", "text", "text", "text", 
-                                                          "text", "text")) %>% 
+df_tortugas2 <-  read_excel("data_tortugas_tfg.xlsx",  
+                            col_types = c("numeric", "text", "text", 
+                                          "text", "date", "date", "text", "text", 
+                                          "text", "text", "text", "text", 
+                                          "text", "text", "text", "text", 
+                                          "text", "text", "text", "text", "text", 
+                                          "text", "text")) %>% 
   mutate(anio=as.numeric(anio),
          anio=round(anio, 0),
          anio=as.character(anio)) %>% 

@@ -2,7 +2,7 @@
 #############################      Biometría     ###############################
 ################################################################################
 
-biometria <- read_excel("C:/Users/jcge9/Desktop/TFG/TFG_R/biometria.xlsx", 
+biometria <- read_excel("biometria_tfg.xlsx", 
                         range = "A3:J891", col_types = c("text", 
                                                          "text", "text", "text", "text", "numeric", 
                                                          "numeric", "numeric", "numeric", 
@@ -371,3 +371,4 @@ cr_biometria %>%
     legend.background = element_rect(color = "black", fill = NA),
     legend.margin = margin(t = -.1, r = .1, b = .1, l = .1, unit = "cm")
   )
+

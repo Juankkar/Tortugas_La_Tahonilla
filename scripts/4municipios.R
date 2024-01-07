@@ -2,6 +2,8 @@
 #### Estudio de la llegada de las tortugas a los municipios #
 #############################################################
 
+source("1Lib_DFs.R")
+
 # Visualización previa de los municipios
 
 municipios <- df_tortugas_marinas %>% group_by(muni) %>%  summarise(n = n())
@@ -306,3 +308,4 @@ plot_grid(uno,dos,
 
 ggsave("muni.png", path = "C:\\Users\\jcge9\\Desktop\\cuarto_carrera\\Tortugas_La_Tahonilla\\graficas",
        width = 9.35, height = 6.5)
+

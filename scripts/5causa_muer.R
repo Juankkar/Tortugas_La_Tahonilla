@@ -2,6 +2,8 @@
 #### Causas y muertes ####
 ##########################
 
+source("1Lib_DFs.R")
+
 # Causas del 2000
 expand.grid(anio=as.character(unique(as.character(df_tortugas_marinas$anio))),
             causa=as.character(unique(as.character(df_tortugas_marinas$causa)))) %>% left_join(
@@ -422,7 +424,7 @@ anio_muerte %>%
  
 
 
-tapply(anio_muerte$n, anio_muerte$muerte, qqplot)
+tapply(anio_muerte$n, anio_muerte$muerte, shapiro.test)
 wilcox1 <- wilcox.test(n~factor(muerte), data = anio_muerte)
 wilcox1_estadistico <- round(wilcox1$statistic,2)
 wilcox1_pvalue <- round(wilcox1$p.value, 9)
@@ -508,7 +510,7 @@ sum(anio_muerte$n)
 ############################  Tortugas rehabilitadas ###########################
 ################################################################################
 
-df_rehabilitadas <-  read_excel("C:/Users/jcge9/Desktop/TFG/TFG_R/data_tortugas.xlsx", 
+df_rehabilitadas <-  read_excel("data_tortugas_tfg.xlsx", 
                                 sheet = "Hoja2") %>% 
   filter(Especie %in% c("Caretta caretta","Chelonia mydas",
                         "Dermochelys coriacea","Eretmochelys imbricata",

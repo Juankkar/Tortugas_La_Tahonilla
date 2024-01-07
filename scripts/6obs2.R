@@ -2,7 +2,9 @@
 ############################## Observaciones 2 #################################
 ################################################################################
 
-selec <-function(ord,lista_tokens,var) {
+source("1Lib_DFs.R")
+
+selec <-data_tortugas_tfg.xlsxselec <-function(ord,lista_tokens,var) {
   paste(lista_tokens[-ord],collapse="|")
   if(!is.na(ord)) return(grepl(lista_tokens[ord],tolower(var)) & !grepl(paste(lista_tokens[-ord],collapse="|"),tolower(var)))
   else return(grepl(paste(lista_tokens,collapse="|"),tolower(var)))

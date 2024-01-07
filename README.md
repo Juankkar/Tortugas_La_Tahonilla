@@ -12,25 +12,25 @@ My intention with this repository is to share the results from this thesis, and 
 
 * <strong><em>script:</strong></em> <strong><a href="scripts/1Lib_DFs.R">1Lib_Dfs.R</a></strong>
 
-## Variables for the analysis.
+## Variables for the analysis (variable names are in spanish).
 
 * The species (<strong><em>"especie"</strong></em>)
 
-    * <strong><em>Script:</strong></em> <strong><a href="scripts/2Tor_de_data.R">2Tor_de_data.R</a></strong>. In here, there is also a time series model, a SARIMA, in order to predict the turtles coming in the year 2022 to the center.
+    * <strong><em>Script:</strong></em> <strong><a href="scripts/2Tor_de_data.R">2Tor_de_data.R</a></strong>. In this script, there is also a time series model known as SARIMA, used to predict the arrival of turtles at the center in the year 2022.
 
 * Time variables: year, month and season (<strong><em>"anio"</strong></em>, <strong><em>"mes"</strong></em>, <strong><em>"estacion"</strong></em>).
 
     * <strong><em>Script:</strong></em> <strong><a href="scripts/3ani_est_mes.R">3tor_ani_est.R</a></strong>
 
-* Municipality and places where the turtles are rescue. (<strong><em>"muni"</strong></em>, <strong><em>"lugar"</strong></em>)
+* The municipality and specific locations where the turtles are rescued (<strong><em>"muni"</strong></em>, <strong><em>"lugar"</strong></em>)
 
     * <strong><em>Script:</strong></em> <strong><a href="scripts/4municipios.R">4municipios.R</a></strong>
 
-* Rescue causes. Turtles that arrive alive or dead, as well as the ones that can be or not rehabilitate. (<strong><em>causa/causa_orig</strong></em>, <strong><em>muerte</strong></em>)
+* Causes for rescue include turtles that arrive either alive or deceased, and whether they can or cannot be rehabilitated.. (<strong><em>causa/causa_orig</strong></em>, <strong><em>muerte</strong></em>)
 
     * <strong><em>Script:</strong></em> <strong><a href="scripts/5causa_muer.R">5causa_muer.R</a></strong>
 
-* The observation that the workers of the center do to the turtles on the arrival (<strong><em>"observa"</strong></em>)
+* The observations conducted by the center's staff upon the turtles' arrival. (<strong><em>"observa"</strong></em>)
 
     * <strong><em>script:</strong></em><strong><a href="scripts/6obs2.R">6obs2.R</a></strong>
 
